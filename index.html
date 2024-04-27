@@ -233,7 +233,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-04-27 18:39:32 / 修改时间：18:41:03" itemprop="dateCreated datePublished" datetime="2024-04-27T18:39:32+08:00">2024-04-27</time>
+      <time title="创建时间：2024-04-27 18:39:32 / 修改时间：18:42:44" itemprop="dateCreated datePublished" datetime="2024-04-27T18:39:32+08:00">2024-04-27</time>
     </span>
 
   
@@ -253,31 +253,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><strong>很多没发文了</strong> <strong>Long time no see!</strong></p>
-<pre><code>    最近啊彬我在找某些资料时突然发现了一款 服务器防爆破软件，（一直没当回事儿），于是立马安装把玩一番，开始有些错误，日志目录错误导致的，后修正就成功了。系统为 Ubuntu 22.04.4 LTS
-
-    我使用的是fastpanel面板直接安装的，直接去服务器 **/etc/fail2ban** 目录新建一个名为 ** “jail.local”** 的文件，本地建好上传也可以内容填写 
-</code></pre>
-<p><code>#DEFAULT-START</code><br><code>[DEFAULT]</code><br><code>bantime = 1800</code><br><code>findtime = 300</code><br><code>maxretry = 3</code><br><code>banaction = firewallcmd-ipset</code><br><code>action = %(action_mwl)s</code><br><code>#DEFAULT-END</code></p>
-<p><code>[sshd]</code><br><code>ignoreip = 127.0.0.1/8               # 白名单</code><br><code>enabled = true</code><br><code>filter = sshd</code><br><code>port = 22                            # 端口</code><br><code>maxretry = 2                         # 最大尝试次数</code><br><code>findtime = 300                       # 发现周期 单位s</code><br><code>bantime = 86400                        # 封禁时间，单位s。-1为永久封禁</code><br><code>action = iptables[name=SSH, port=ssh, protocol=tcp]</code><br><code>banaction = iptables-multiport       # 禁用方式</code><br><code>logpath = /var/log/auth.log         # SSH 登陆日志位置</code></p>
-<p>里面封禁时间，尝试次数，发现周期可以自行调整。</p>
-<p>保存后 </p>
-<p><strong>启动 Fail2ban 服务</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start fail2ban</span><br></pre></td></tr></table></figure>
-
-<p><strong>开机自启动</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl enable fail2ban</span><br></pre></td></tr></table></figure>
-
-<p><strong>查看 Fail2ban 服务状态。</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl status fail2ban</span><br></pre></td></tr></table></figure>
-
-<p><strong>查看被封禁IP数量</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /var/log/fail2ban.log | wc -l</span><br></pre></td></tr></table></figure>
-
-<p><img data-src="https://s21.ax1x.com/2024/04/27/pkiAdu6.png"></p>
-<p>可以看到已经有被拦截IP了 </p>
-<p><strong>结束！</strong></p>
-
+          <p>利用fail2ban封锁IP简单配置记载</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2024/6947cc31.html">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 

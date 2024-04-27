@@ -37,6 +37,82 @@
       </tags>
   </entry>
   <entry>
+    <title>Autodesk旗下软件Autocad制图软件的学生资质认证及使用教程</title>
+    <url>/2023/551ccee5.html</url>
+    <content><![CDATA[<p>阿彬我发现有机械专业的小伙伴还没有使用上Autocad这款超级实用的制图软件，更有还在使用盗版Autocad的同学，还在上大学你的还没有用上正版Autocad嘛？</p>
+<h3 id="实际上Autocad是对学生和老师是免费使用的，在校中大学师生需要通过教育认证就可以免费使用Autodesk的软件。"><a href="#实际上Autocad是对学生和老师是免费使用的，在校中大学师生需要通过教育认证就可以免费使用Autodesk的软件。" class="headerlink" title="实际上Autocad是对学生和老师是免费使用的，在校中大学师生需要通过教育认证就可以免费使用Autodesk的软件。"></a>实际上Autocad是对学生和老师是免费使用的，在校中大学师生需要通过教育认证就可以免费使用Autodesk的软件。</h3><p>下面我就来教大家如何获取免费的正版Autocad</p>
+<p><strong>首先打开Autodesk官网 注册账户</strong> </p>
+<p><a href="https://www.autodesk.com/">https://www.autodesk.com/ </a></p>
+<p>进入后会提示切换到你本地所使用语言区域，我这里默认英语English ，可以在弹窗切换 local,在网站的右上角点击“sign in” 注册过的可以直接试用账号登陆了，没注册过的点击NEXT 下方的 “CREATE ACCOUNT” 来创建一个账户，用于Autodesk系列账号。</p>
+<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/180181d998634d9dbaf2018359949aba06814954efb3bc94.jpeg"></p>
+<p>其实大陆直接切换简体中文就好了，这里输入基本信息创建账户。</p>
+<p><strong>验证邮箱</strong></p>
+<p>创建后Autodesk会发送一个验证邮件到你填写的邮箱，如果没收到，请检查自己邮箱的“垃圾箱”。</p>
+<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/0160fb1151a74691b08a31c3781a9f82ca1812c0761a9a1d.jpeg"></p>
+<p>注册后到首页左上角点击“ products<strong>产品</strong>”，再点击“Download software<strong>下载软件</strong>”</p>
+<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/a194f2f1ec2f4257b66c32cab6a548f90450fb6507602dce.jpeg"></p>
+<p><strong>再点击“购买产品”按钮，进入产品列表后点击Autocad</strong></p>
+<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/4020fae96eb74647a295980076a7172e61d63928f14cbcf8.jpeg"></p>
+<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/d1c994c5b63b47df863f6799e6595c77afe9c45322653dce.jpeg"></p>
+<p><strong>点击 “Download free trial”</strong></p>
+<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/06f4001de00c4969b74b5f7b7fd705c54042eff0dea0fca3.jpeg"></p>
+<p>进入后再选择 “Education”, 点击 “Educational community” 下一步</p>
+<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/99bac4b6c3c04a99800f95c73e2590ec9ade864fab231a88.jpeg"></p>
+<p>继续下一步操作，去验证信息</p>
+<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/e2ca3240de6a46e6b28436f34afd9f9166dc9c38d9f2be22.jpeg"></p>
+<p>选择students学生，并填写国家country和学校名称等信息</p>
+<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/9b336063c95441b486ffb572375c0101cac5caef15ca2f82.jpeg"></p>
+<p>填写确认confirm后,再上传一张学生证头像面即可，等待一段时间即可提示认证成功</p>
+<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/b9b0fc844a2a4821b6758d6e0d835406bacb7419852bae2c.jpeg"></p>
+<p>认证完成后再返回主页产品列表，选择Autocad产品，继续按提示就可以下载了，现在最新可以选择2023版本，下载的是安装器，安装器自动下载软件，大小1.8G左右，下载安装完成后需要登录刚完成认证的账户，即可享受白嫖咯！</p>
+<p>如果你觉得本教程还可以，不妨收藏本站支持下吧！</p>
+]]></content>
+      <tags>
+        <tag>autoCAD</tag>
+        <tag>autodesk</tag>
+        <tag>制图软件</tag>
+        <tag>draw</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ubuntu20系统设置DNS教程（ping不通外网）纯ipv6</title>
+    <url>/2023/ef1b48f6.html</url>
+    <content><![CDATA[<p><img data-src="https://s1.ax1x.com/2022/12/14/zIgfmj.jpg"></p>
+<p>这篇文章在我上次遇到问题时就写下并发布在博客，这个博客没来得及发布，正好想起来，</p>
+<p>今天是2023年1月1日，一忘就是一年啊哈哈哈，祝各位网友新年快乐!  </p>
+<p>Ubuntu20系统设置DNS教程（ping不通外网）纯ipv6</p>
+<p>Ubuntu20系统设置DNS教程</p>
+<p>阿彬我在最近测试纯ipv6的服务器时，发现无法ping外网，</p>
+<p>ping6 Google.com </p>
+<p>出现错误，无法ping通。</p>
+<p>下面就说说我的解决方法</p>
+<p>ssh连接服务器 </p>
+<p>命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/systemd/resolved.conf</span><br></pre></td></tr></table></figure>
+
+<p>添加DNS地址 下面两个人选两个 建议各选一个</p>
+<p>不会vim编辑器的，输入上面命令回车后进入命令模式，按下键盘上的“i”键，页面左下方提提示 “–INSERT”,进入输入模式 在空白处输入下方DNS地址 </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Cloudflare IPv6 DNS</span><br><span class="line">nameserver 2606:4700:4700::1111</span><br><span class="line">nameserver 2606:4700:4700::1001</span><br><span class="line">谷歌 IPv6 DNS</span><br><span class="line">nameserver 2001:4860:4860::8888</span><br><span class="line">nameserver 2001:4860:4860::8844</span><br></pre></td></tr></table></figure>
+
+<p>输入完成后 按键盘上的 “ESC” 退出输入模式 ，再把输入设置为英文 （按“shift”）的同时按冒号那个键 “:”打出英文“:”再按wq，整体就是 “:wq” ，这时在按回车键就保存退出了。</p>
+<p>然后以root身份在ubuntu终端中依次执行命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart systemd-resolved</span><br><span class="line">systemctl enable systemd-resolved</span><br><span class="line">mv /etc/resolv.conf /etc/resolv.conf.bak</span><br><span class="line">ln -s /run/systemd/resolve/resolv.conf /etc/</span><br></pre></td></tr></table></figure>
+
+<p>再回到ssh， ping6 Google.com  此时就ping通啦！ </p>
+]]></content>
+      <tags>
+        <tag>林云彬博客</tag>
+        <tag>Ubuntu</tag>
+        <tag>Ubuntu20</tag>
+        <tag>IPV6</tag>
+        <tag>vps</tag>
+        <tag>服务器</tag>
+        <tag>纯IPV6</tag>
+        <tag>DNS</tag>
+        <tag>www.binyun.top</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>FARCDN高速cdn使用教程详细作者版全网首发！</title>
     <url>/2023/dd951033.html</url>
     <content><![CDATA[<h1 id="FARCDN官网"><a href="#FARCDN官网" class="headerlink" title="FARCDN官网"></a><a href="https://my.farcdn.net/">FARCDN官网</a></h1><p>以下为内容商家小菜鸡提供，本博客全网首发，方便大家食用。</p>
@@ -176,44 +252,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Autodesk旗下软件Autocad制图软件的学生资质认证及使用教程</title>
-    <url>/2023/551ccee5.html</url>
-    <content><![CDATA[<p>阿彬我发现有机械专业的小伙伴还没有使用上Autocad这款超级实用的制图软件，更有还在使用盗版Autocad的同学，还在上大学你的还没有用上正版Autocad嘛？</p>
-<h3 id="实际上Autocad是对学生和老师是免费使用的，在校中大学师生需要通过教育认证就可以免费使用Autodesk的软件。"><a href="#实际上Autocad是对学生和老师是免费使用的，在校中大学师生需要通过教育认证就可以免费使用Autodesk的软件。" class="headerlink" title="实际上Autocad是对学生和老师是免费使用的，在校中大学师生需要通过教育认证就可以免费使用Autodesk的软件。"></a>实际上Autocad是对学生和老师是免费使用的，在校中大学师生需要通过教育认证就可以免费使用Autodesk的软件。</h3><p>下面我就来教大家如何获取免费的正版Autocad</p>
-<p><strong>首先打开Autodesk官网 注册账户</strong> </p>
-<p><a href="https://www.autodesk.com/">https://www.autodesk.com/ </a></p>
-<p>进入后会提示切换到你本地所使用语言区域，我这里默认英语English ，可以在弹窗切换 local,在网站的右上角点击“sign in” 注册过的可以直接试用账号登陆了，没注册过的点击NEXT 下方的 “CREATE ACCOUNT” 来创建一个账户，用于Autodesk系列账号。</p>
-<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/180181d998634d9dbaf2018359949aba06814954efb3bc94.jpeg"></p>
-<p>其实大陆直接切换简体中文就好了，这里输入基本信息创建账户。</p>
-<p><strong>验证邮箱</strong></p>
-<p>创建后Autodesk会发送一个验证邮件到你填写的邮箱，如果没收到，请检查自己邮箱的“垃圾箱”。</p>
-<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/0160fb1151a74691b08a31c3781a9f82ca1812c0761a9a1d.jpeg"></p>
-<p>注册后到首页左上角点击“ products<strong>产品</strong>”，再点击“Download software<strong>下载软件</strong>”</p>
-<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/a194f2f1ec2f4257b66c32cab6a548f90450fb6507602dce.jpeg"></p>
-<p><strong>再点击“购买产品”按钮，进入产品列表后点击Autocad</strong></p>
-<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/4020fae96eb74647a295980076a7172e61d63928f14cbcf8.jpeg"></p>
-<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/d1c994c5b63b47df863f6799e6595c77afe9c45322653dce.jpeg"></p>
-<p><strong>点击 “Download free trial”</strong></p>
-<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/06f4001de00c4969b74b5f7b7fd705c54042eff0dea0fca3.jpeg"></p>
-<p>进入后再选择 “Education”, 点击 “Educational community” 下一步</p>
-<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/99bac4b6c3c04a99800f95c73e2590ec9ade864fab231a88.jpeg"></p>
-<p>继续下一步操作，去验证信息</p>
-<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/e2ca3240de6a46e6b28436f34afd9f9166dc9c38d9f2be22.jpeg"></p>
-<p>选择students学生，并填写国家country和学校名称等信息</p>
-<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/9b336063c95441b486ffb572375c0101cac5caef15ca2f82.jpeg"></p>
-<p>填写确认confirm后,再上传一张学生证头像面即可，等待一段时间即可提示认证成功</p>
-<p><img data-src="https://pic.linyunbin.com/images/2023/05/03/b9b0fc844a2a4821b6758d6e0d835406bacb7419852bae2c.jpeg"></p>
-<p>认证完成后再返回主页产品列表，选择Autocad产品，继续按提示就可以下载了，现在最新可以选择2023版本，下载的是安装器，安装器自动下载软件，大小1.8G左右，下载安装完成后需要登录刚完成认证的账户，即可享受白嫖咯！</p>
-<p>如果你觉得本教程还可以，不妨收藏本站支持下吧！</p>
-]]></content>
-      <tags>
-        <tag>autoCAD</tag>
-        <tag>autodesk</tag>
-        <tag>制图软件</tag>
-        <tag>draw</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>搬瓦工中美极速CN2 GIA线路服务器99刀/年新低限量套餐</title>
     <url>/2023/45bc0655.html</url>
     <content><![CDATA[<p> 搬瓦工主机（bandwagonhost.com）相信经常逛海外主机的都了解，这家具有雄厚的实力，主要明星产品就是对大陆优化线路的服务器，深得国人喜爱。</p>
@@ -271,93 +309,6 @@
         <tag>中美极速云</tag>
         <tag>高速云服务器</tag>
         <tag>大带宽服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpaceX 再次发射 46 颗星链组网卫星</title>
-    <url>/2022/baaba7f6.html</url>
-    <content><![CDATA[<p>来自网络<br>美国东部时间周日晚上 9 点 39 分，一枚两级猎鹰 9 号火箭载着 SpaceX 的 46 颗星链互联网卫星从加州范登堡空军基地升空。</p>
-<p>升空后约 8.5 分钟，猎鹰 9 号的第一级返回地球，降落在 SpaceX 的无人船“Of Course I Still Love You”上，该无人船驻扎在太平洋上。</p>
-<p>这是 SpaceX 今年的第 29 次轨道发射任务，也是第 17 次专门用于星链卫星发射。据悉，本月还有 3 次星链组网卫星将发射。</p>
-<p>迄今为止，SpaceX 已经发射了超过 2750 颗星链卫星，而且在可预见的未来，这个数字将继续增长。该公司已获准发射 12,000 颗星链卫星，并已向一个国际监管机构申请在此基础上再发射 30,000 颗。</p>
-]]></content>
-      <tags>
-        <tag>spacex</tag>
-        <tag>卫星</tag>
-        <tag>星链</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Ubuntu20系统设置DNS教程（ping不通外网）纯ipv6</title>
-    <url>/2023/ef1b48f6.html</url>
-    <content><![CDATA[<p><img data-src="https://s1.ax1x.com/2022/12/14/zIgfmj.jpg"></p>
-<p>这篇文章在我上次遇到问题时就写下并发布在博客，这个博客没来得及发布，正好想起来，</p>
-<p>今天是2023年1月1日，一忘就是一年啊哈哈哈，祝各位网友新年快乐!  </p>
-<p>Ubuntu20系统设置DNS教程（ping不通外网）纯ipv6</p>
-<p>Ubuntu20系统设置DNS教程</p>
-<p>阿彬我在最近测试纯ipv6的服务器时，发现无法ping外网，</p>
-<p>ping6 Google.com </p>
-<p>出现错误，无法ping通。</p>
-<p>下面就说说我的解决方法</p>
-<p>ssh连接服务器 </p>
-<p>命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vi /etc/systemd/resolved.conf</span><br></pre></td></tr></table></figure>
-
-<p>添加DNS地址 下面两个人选两个 建议各选一个</p>
-<p>不会vim编辑器的，输入上面命令回车后进入命令模式，按下键盘上的“i”键，页面左下方提提示 “–INSERT”,进入输入模式 在空白处输入下方DNS地址 </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Cloudflare IPv6 DNS</span><br><span class="line">nameserver 2606:4700:4700::1111</span><br><span class="line">nameserver 2606:4700:4700::1001</span><br><span class="line">谷歌 IPv6 DNS</span><br><span class="line">nameserver 2001:4860:4860::8888</span><br><span class="line">nameserver 2001:4860:4860::8844</span><br></pre></td></tr></table></figure>
-
-<p>输入完成后 按键盘上的 “ESC” 退出输入模式 ，再把输入设置为英文 （按“shift”）的同时按冒号那个键 “:”打出英文“:”再按wq，整体就是 “:wq” ，这时在按回车键就保存退出了。</p>
-<p>然后以root身份在ubuntu终端中依次执行命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart systemd-resolved</span><br><span class="line">systemctl enable systemd-resolved</span><br><span class="line">mv /etc/resolv.conf /etc/resolv.conf.bak</span><br><span class="line">ln -s /run/systemd/resolve/resolv.conf /etc/</span><br></pre></td></tr></table></figure>
-
-<p>再回到ssh， ping6 Google.com  此时就ping通啦！ </p>
-]]></content>
-      <tags>
-        <tag>林云彬博客</tag>
-        <tag>Ubuntu</tag>
-        <tag>Ubuntu20</tag>
-        <tag>IPV6</tag>
-        <tag>vps</tag>
-        <tag>服务器</tag>
-        <tag>纯IPV6</tag>
-        <tag>DNS</tag>
-        <tag>www.binyun.top</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows10虚拟机内安装TIA PORTAL V17数字自动化软件教程</title>
-    <url>/2023/16f00e48.html</url>
-    <content><![CDATA[<p>​     首先你需要在虚拟机内运行Windows10系统，本教程使用 Vmware workstation pro 17和 Tia Portal v17 版本。 </p>
-<p>  首先打开虚拟机运行Windows10系统（废话），在虚拟机内 打开浏览器进入 SIMENS (西门子)官网 <strong><a href="https://support.industry.siemens.com/cs/document/109784440/simatic-step-7-incl-safety-s7-plcsim-and-wincc-v17-trial-download?dti=0&dl=en&lc=zh-CN">软件下载</a></strong>  下载下图中配置即可，网站靠左上有 English，可切换中文。如果需要登录，那就注册个账户，全英文，最好不要用中文。</p>
-<p><img data-src="https://s1.ax1x.com/2023/04/02/ppfF8Hg.png"></p>
-<p>等待软件镜像下载完成</p>
-<p>虚拟机要开启 .NET framework 3.5</p>
-<p>开启方法为 搜索框搜索 ：控制面板，找到 “程序” “启用或关闭Windows功能”</p>
-<p>下载完成后打开该文件，运行安装程序。</p>
-<p>虚拟机内卡的话不要瞎点！ 一个字“等！”</p>
-<p><img data-src="https://s1.ax1x.com/2023/04/02/ppfFYNj.png"></p>
-<p>按照安装引导下一步就是了，语言随你便，有协议就勾选同意，其他默认，接下来就是等待安装了，需要点儿时间，等就完事儿了。</p>
-<p>安装完成后桌面会出现这几个图标，Tia portal v17 就是我们需要的。</p>
-<p><img data-src="https://s1.ax1x.com/2023/04/02/ppfFt4s.png"></p>
-<p>安装完成后提示要重启系统，这一步选否，稍后重启，然后看下一步！</p>
-<p>下一步安装 Tia portal v17 plcsim （运行仿真，开启cpu）。</p>
-<p> <a href="https://share.weiyun.com/ImpCRU3O">点我下载 Tia portal plcsim</a></p>
-<p>下载完成提示重装系统，这一步同上，也选否，然后关闭，继续下面操作。</p>
-<p>下载Simatic_EKB</p>
-<p>Simatic_EKB是自动化工程师和工控朋友经常使用的知名软件之一，使用它可以免费体验软件（企业请使用正版，谢谢）</p>
-<p><a href="https://pan.xunlei.com/s/VNQej12B-fKRxYir1qjauiVTA1?pwd=emtf#">点我下载Simatic_EKB</a></p>
-<p>进入软件后，第一步左上角选择 Tia portal v17 安装盘符，第二步选择tia portal 和版本，第三步勾选需要的功能，第四步点击安装长密钥。这样就完成了授权使用（白嫖）</p>
-<p><img data-src="https://s1.ax1x.com/2023/04/02/ppfFJEQ.png"></p>
-<p>重启系统后，打开Tia portal v17 即可正常使用。</p>
-<p><img data-src="https://s1.ax1x.com/2023/04/02/ppfF3DS.png"></p>
-<p>教程到此结束，本教程仅供个人学习所用，禁止用于其他用途，如不是个人学习用途，请立即停止使用！</p>
-]]></content>
-      <tags>
-        <tag>simens</tag>
-        <tag>tia portal</tag>
-        <tag>西门子</tag>
-        <tag>博图软件</tag>
       </tags>
   </entry>
   <entry>
@@ -435,6 +386,55 @@
       </tags>
   </entry>
   <entry>
+    <title>SpaceX 再次发射 46 颗星链组网卫星</title>
+    <url>/2022/baaba7f6.html</url>
+    <content><![CDATA[<p>来自网络<br>美国东部时间周日晚上 9 点 39 分，一枚两级猎鹰 9 号火箭载着 SpaceX 的 46 颗星链互联网卫星从加州范登堡空军基地升空。</p>
+<p>升空后约 8.5 分钟，猎鹰 9 号的第一级返回地球，降落在 SpaceX 的无人船“Of Course I Still Love You”上，该无人船驻扎在太平洋上。</p>
+<p>这是 SpaceX 今年的第 29 次轨道发射任务，也是第 17 次专门用于星链卫星发射。据悉，本月还有 3 次星链组网卫星将发射。</p>
+<p>迄今为止，SpaceX 已经发射了超过 2750 颗星链卫星，而且在可预见的未来，这个数字将继续增长。该公司已获准发射 12,000 颗星链卫星，并已向一个国际监管机构申请在此基础上再发射 30,000 颗。</p>
+]]></content>
+      <tags>
+        <tag>spacex</tag>
+        <tag>卫星</tag>
+        <tag>星链</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows10虚拟机内安装TIA PORTAL V17数字自动化软件教程</title>
+    <url>/2023/16f00e48.html</url>
+    <content><![CDATA[<p>​     首先你需要在虚拟机内运行Windows10系统，本教程使用 Vmware workstation pro 17和 Tia Portal v17 版本。 </p>
+<p>  首先打开虚拟机运行Windows10系统（废话），在虚拟机内 打开浏览器进入 SIMENS (西门子)官网 <strong><a href="https://support.industry.siemens.com/cs/document/109784440/simatic-step-7-incl-safety-s7-plcsim-and-wincc-v17-trial-download?dti=0&dl=en&lc=zh-CN">软件下载</a></strong>  下载下图中配置即可，网站靠左上有 English，可切换中文。如果需要登录，那就注册个账户，全英文，最好不要用中文。</p>
+<p><img data-src="https://s1.ax1x.com/2023/04/02/ppfF8Hg.png"></p>
+<p>等待软件镜像下载完成</p>
+<p>虚拟机要开启 .NET framework 3.5</p>
+<p>开启方法为 搜索框搜索 ：控制面板，找到 “程序” “启用或关闭Windows功能”</p>
+<p>下载完成后打开该文件，运行安装程序。</p>
+<p>虚拟机内卡的话不要瞎点！ 一个字“等！”</p>
+<p><img data-src="https://s1.ax1x.com/2023/04/02/ppfFYNj.png"></p>
+<p>按照安装引导下一步就是了，语言随你便，有协议就勾选同意，其他默认，接下来就是等待安装了，需要点儿时间，等就完事儿了。</p>
+<p>安装完成后桌面会出现这几个图标，Tia portal v17 就是我们需要的。</p>
+<p><img data-src="https://s1.ax1x.com/2023/04/02/ppfFt4s.png"></p>
+<p>安装完成后提示要重启系统，这一步选否，稍后重启，然后看下一步！</p>
+<p>下一步安装 Tia portal v17 plcsim （运行仿真，开启cpu）。</p>
+<p> <a href="https://share.weiyun.com/ImpCRU3O">点我下载 Tia portal plcsim</a></p>
+<p>下载完成提示重装系统，这一步同上，也选否，然后关闭，继续下面操作。</p>
+<p>下载Simatic_EKB</p>
+<p>Simatic_EKB是自动化工程师和工控朋友经常使用的知名软件之一，使用它可以免费体验软件（企业请使用正版，谢谢）</p>
+<p><a href="https://pan.xunlei.com/s/VNQej12B-fKRxYir1qjauiVTA1?pwd=emtf#">点我下载Simatic_EKB</a></p>
+<p>进入软件后，第一步左上角选择 Tia portal v17 安装盘符，第二步选择tia portal 和版本，第三步勾选需要的功能，第四步点击安装长密钥。这样就完成了授权使用（白嫖）</p>
+<p><img data-src="https://s1.ax1x.com/2023/04/02/ppfFJEQ.png"></p>
+<p>重启系统后，打开Tia portal v17 即可正常使用。</p>
+<p><img data-src="https://s1.ax1x.com/2023/04/02/ppfF3DS.png"></p>
+<p>教程到此结束，本教程仅供个人学习所用，禁止用于其他用途，如不是个人学习用途，请立即停止使用！</p>
+]]></content>
+      <tags>
+        <tag>simens</tag>
+        <tag>tia portal</tag>
+        <tag>西门子</tag>
+        <tag>博图软件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>cheveretov4在Linux设置cron计划任务教程</title>
     <url>/2023/de0a6caf.html</url>
     <content><![CDATA[<p>  chevereto v4.0.7 设置计划任务教程</p>
@@ -475,6 +475,38 @@
       </tags>
   </entry>
   <entry>
+    <title>利用fail2ban封锁IP简单配置记载</title>
+    <url>/2024/6947cc31.html</url>
+    <content><![CDATA[<p><strong>很多没发文了</strong> <strong>Long time no see!</strong></p>
+<pre><code>    最近啊彬我在找某些资料时突然发现了一款 服务器防爆破软件，（一直没当回事儿），于是立马安装把玩一番，开始有些错误，日志目录错误导致的，后修正就成功了。系统为 Ubuntu 22.04.4 LTS
+
+    我使用的是fastpanel面板直接安装的，直接去服务器 **/etc/fail2ban** 目录新建一个名为 ** “jail.local”** 的文件，本地建好上传也可以内容填写 
+</code></pre>
+<p><code>#DEFAULT-START</code><br><code>[DEFAULT]</code><br><code>bantime = 1800</code><br><code>findtime = 300</code><br><code>maxretry = 3</code><br><code>banaction = firewallcmd-ipset</code><br><code>action = %(action_mwl)s</code><br><code>#DEFAULT-END</code></p>
+<p><code>[sshd]</code><br><code>ignoreip = 127.0.0.1/8               # 白名单</code><br><code>enabled = true</code><br><code>filter = sshd</code><br><code>port = 22                            # 端口</code><br><code>maxretry = 2                         # 最大尝试次数</code><br><code>findtime = 300                       # 发现周期 单位s</code><br><code>bantime = 86400                        # 封禁时间，单位s。-1为永久封禁</code><br><code>action = iptables[name=SSH, port=ssh, protocol=tcp]</code><br><code>banaction = iptables-multiport       # 禁用方式</code><br><code>logpath = /var/log/auth.log         # SSH 登陆日志位置</code></p>
+<p>里面封禁时间，尝试次数，发现周期可以自行调整。</p>
+<p>保存后 </p>
+<p><strong>启动 Fail2ban 服务</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl start fail2ban</span><br></pre></td></tr></table></figure>
+
+<p><strong>开机自启动</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl enable fail2ban</span><br></pre></td></tr></table></figure>
+
+<p><strong>查看 Fail2ban 服务状态。</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl status fail2ban</span><br></pre></td></tr></table></figure>
+
+<p><strong>查看被封禁IP数量</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cat /var/log/fail2ban.log | wc -l</span><br></pre></td></tr></table></figure>
+
+<p><img data-src="https://s21.ax1x.com/2024/04/27/pkiAdu6.png"></p>
+<p>可以看到已经有被拦截IP了 </p>
+<p><strong>结束！</strong></p>
+]]></content>
+      <tags>
+        <tag>-fail2ban -fail2ban 配置</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vmware workstation pro 虚拟机安装Windows10操作系统教程</title>
     <url>/2023/c63b0d2b.html</url>
     <content><![CDATA[<p>使用vmware workstation pro创建Windows10虚拟机教程</p>
@@ -509,38 +541,6 @@
       </tags>
   </entry>
   <entry>
-    <title>利用fail2ban封锁IP简单配置记载</title>
-    <url>/2024/6947cc31.html</url>
-    <content><![CDATA[<p><strong>很多没发文了</strong> <strong>Long time no see!</strong></p>
-<pre><code>    最近啊彬我在找某些资料时突然发现了一款 服务器防爆破软件，（一直没当回事儿），于是立马安装把玩一番，开始有些错误，日志目录错误导致的，后修正就成功了。系统为 Ubuntu 22.04.4 LTS
-
-    我使用的是fastpanel面板直接安装的，直接去服务器 **/etc/fail2ban** 目录新建一个名为 ** “jail.local”** 的文件，本地建好上传也可以内容填写 
-</code></pre>
-<p><code>#DEFAULT-START</code><br><code>[DEFAULT]</code><br><code>bantime = 1800</code><br><code>findtime = 300</code><br><code>maxretry = 3</code><br><code>banaction = firewallcmd-ipset</code><br><code>action = %(action_mwl)s</code><br><code>#DEFAULT-END</code></p>
-<p><code>[sshd]</code><br><code>ignoreip = 127.0.0.1/8               # 白名单</code><br><code>enabled = true</code><br><code>filter = sshd</code><br><code>port = 22                            # 端口</code><br><code>maxretry = 2                         # 最大尝试次数</code><br><code>findtime = 300                       # 发现周期 单位s</code><br><code>bantime = 86400                        # 封禁时间，单位s。-1为永久封禁</code><br><code>action = iptables[name=SSH, port=ssh, protocol=tcp]</code><br><code>banaction = iptables-multiport       # 禁用方式</code><br><code>logpath = /var/log/auth.log         # SSH 登陆日志位置</code></p>
-<p>里面封禁时间，尝试次数，发现周期可以自行调整。</p>
-<p>保存后 </p>
-<p><strong>启动 Fail2ban 服务</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl start fail2ban</span><br></pre></td></tr></table></figure>
-
-<p><strong>开机自启动</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl enable fail2ban</span><br></pre></td></tr></table></figure>
-
-<p><strong>查看 Fail2ban 服务状态。</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl status fail2ban</span><br></pre></td></tr></table></figure>
-
-<p><strong>查看被封禁IP数量</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cat /var/log/fail2ban.log | wc -l</span><br></pre></td></tr></table></figure>
-
-<p><img data-src="https://s21.ax1x.com/2024/04/27/pkiAdu6.png"></p>
-<p>可以看到已经有被拦截IP了 </p>
-<p><strong>结束！</strong></p>
-]]></content>
-      <tags>
-        <tag>-fail2ban -fail2ban 配置</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>lnmp一键脚本下开启NGINX获取网站访客真实IP非CDNIP</title>
     <url>/2023/86a096d5.html</url>
     <content><![CDATA[<p>阿彬我最近安装程序发现网站并不能获取我的真实IP地址，获取的是CDN的IP地址，这就导致了有些东西没法实现，现在我来分享一下我的方法。</p>
@@ -568,19 +568,6 @@
       </tags>
   </entry>
   <entry>
-    <title>一款彬云自用typecho 极简风格模板 bindefault theme for typecho</title>
-    <url>/2022/4fdbc8f0.html</url>
-    <content><![CDATA[<p>一款彬云自用typecho 极简风格模板 bindefault theme for typecho<br>特点<br>1.非常简洁 （啊哈哈啊哈）<br>2.没有评论区和搜索栏<br>3.typecho官方默认模板修改而来</p>
-<p>本人就是喜欢简简单单，所以呢这个主题也是简简单单，没有任何花里胡哨。<br>手机电脑页面适配也是很好。<br>上图</p>
-<p><img data-src="https://i.imgtg.com/2022/07/12/ePacP.png"></p>
-]]></content>
-      <tags>
-        <tag>typecho</tag>
-        <tag>极简模板</tag>
-        <tag>typecho模板</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>一篇新的文章</title>
     <url>/2022/134d76c0.html</url>
     <content><![CDATA[<p>什么都没有</p>
@@ -591,29 +578,32 @@
       </tags>
   </entry>
   <entry>
-    <title>使用GitHub搭建hexo静态博客教程最新精心制作版</title>
-    <url>/2022/8ccb697d.html</url>
-    <content><![CDATA[<p>满满都是干货，没有一滴水分。阿彬我也是最近才玩儿这个hexo博客系统，hexo看起来还不错，在网上也找了许多搭建教程，看的晕头转向，错误频出，于是我就自己摸索总结出了本文，希望能够帮助到大家，教程真是非常细致，喜欢救收藏一下吧！<br>为什么用GitHub搭建hexo博客呢？ GitHub是什么就不多说，关键是它免费啊，在大陆搭建网站又要备案，又有人天天管你，网站基本就纯公益型，使用GitHub搭建hexo，你甚至什么钱都不用花，一套免费还稳定的博客，只需要你勤劳的双手点一点就可以实现，何乐而不为呢？，说他缺点吧，也有，就是大陆访问速度一般，不过这不算什么，相信大家都懂。<br>好了，废话不多说，直接上来开始干</p>
-<h3 id="我使用的是Windows11-系统搭建的，其他的不清楚。"><a href="#我使用的是Windows11-系统搭建的，其他的不清楚。" class="headerlink" title="我使用的是Windows11 系统搭建的，其他的不清楚。"></a>我使用的是Windows11 系统搭建的，其他的不清楚。</h3><p>首先上 下载两款必备软件 链接都准备好了 </p>
-<p>一款 Nodejs，另一款 Git</p>
-<h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a><a href="https://git-scm.com/download/win">Git</a></h3><h3 id="Nodejs"><a href="#Nodejs" class="headerlink" title="Nodejs"></a><a href="https://nodejs.org/en/download/">Nodejs</a></h3><p>下载完成后创建一个文件夹（网站目录所在地）<br>右键该文件夹 找到 “Git Bash Here” 单击运行 你会看到这个窗口<br><img data-src="https://s1.ax1x.com/2022/07/21/jLKVEQ.png"> 没问题 进行下一步<br>输入 <code>node -v</code><br>输入 <code> npm -v</code><br>查看版本号<br>   <img data-src="https://s1.ax1x.com/2022/07/21/jLKWxP.png"><br>输入   <code>hexo init</code> 初始化博客 ,从GitHub下载源码到本地目录<br><img data-src="https://s1.ax1x.com/2022/07/21/jLKoVg.png"><br>稍等片刻 等待下载完成<br>输入  <code>hexo -vision</code> 查看版本信息 如图 hexo已经安装完毕<br><img data-src="https://s1.ax1x.com/2022/07/21/jLKvrT.png"><br>输入 <code> hexo clean</code>清理<br>输入   <code>  hexo g</code> 生成页面<br><img data-src="https://s1.ax1x.com/2022/07/21/jLMGsf.png"><br>输入  <code>  hexo s</code> 生成本地预览<br><img data-src="https://s1.ax1x.com/2022/07/21/jLMBzq.png"><br>到这一步，打开浏览器 复制提示的网址 访问网站 ，如果无法访问 使用 hexo server -p 5000 来更改端口（5000为端口号）<br><img data-src="https://s1.ax1x.com/2022/07/21/jLMrQ0.png"></p>
-<p>安装GIT部署插件<br>输入   <code>npm install hexo-deployer-git --save</code><br> 本地的hexo就已经部署完毕了</p>
-<p>接下来生成密钥<br>输入  <code> git config --global user.name &quot;你的GitHub用户名&quot;</code></p>
-<p>输入 <code>  git config --global user.email &quot;你的GitHub注册邮箱&quot;</code></p>
-<p>接下来生成密钥<br>输入 <code>ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot; </code><br>直接三个回车，根据提示找到生成的.ssh的文件夹中的id_rsa.pub密钥，将内容全部复制。<br> 打开 GitHub.com ，没有账户使用邮箱注册一个<br> 有的话直接点链接进入<br> <a href="https://github.com/settings/keys">keys设置页面</a><br> 进入主页 右上角 setting ， 点击左侧 SSH and GPG keys<br><img data-src="https://s1.ax1x.com/2022/07/21/jLMqTe.png"><br> 标题随意，把生成的密钥粘贴进去， 最后点击Add SSH key。<br> <img data-src="https://s1.ax1x.com/2022/07/21/jLQfHS.png"><br> 在Git Bash中检测GitHub公钥设置是否成功<br> 输入 <code>ssh git@github.com</code><br> 如果提示中 开头 有你的用户名 或看到 successfully，表示成功。<br> 密钥是用来连接GitHub仓库的，只有经过验证才可以上传到仓库，确保安全性。<br> 接下来 找到你电脑创建的hexo源码的目录 找到_config.yml 文件 （站点配置）。 theme中的是主题配置文件。<br> 打开站点的配置文件_config.yml，翻到最后修改为：<br><img data-src="https://s1.ax1x.com/2022/07/21/jLGxpQ.png" alt="jLGxpQ.png"><br>deploy:<br>type: git<br>repo: <a href="mailto:&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#111;&#x6d;">&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#111;&#x6d;</a>:你的用户名&#x2F;你的用户名.github.io.git<br>branch: main<br> repo中的内容就是你进入仓库后 页面中间 绿色按钮 code，里面的ssh链接。<br> branch是仓库的默认名，看你仓库用的是 main还是master，现在默认是main，具体看你仓库branches设置 <a href="https://github.com/settings/keys">传送门</a></p>
-<p> 最后再输入<br>    <code> hexo clean</code> 清理<br>   <code> hexo g  </code>生成页面<br>  <code>  hexo d </code> 发布到GitHub<br> 现在进入GitHub 中你的域名就可以看到网站啦，你的域名就是最开始设置的库名 xxx.github.io<br> 你还想个性一点的话，可以在github设置自定义域名<br> 在仓库点击settings ，是页面中上边的setings，不是右上角的。<br> <img data-src="https://s1.ax1x.com/2022/07/21/jL1cef.png"><br> 左边找到 pages 进入 在custom domain 设置你自己的域名，域名直接cname解析至 你的仓库域名即可。<br> <img data-src="https://s1.ax1x.com/2022/07/21/jL3tcn.png"></p>
-<p> 现在你就可以用自己的域名访问hexo啦！<br> 如果你发布的文章上传到GitHub后 自定义域名失效了，那么你就到GitHub 重新设置一下，然后在仓库里把 cname这个文件下载下来，里面是你的域名，把这个文件放置到你本地源码的 source中，这样以后发布也不会失效了。<br> 下面是几个命令<br>发布文章一定按照这个顺序进行</p>
-<pre><code>` hexo clean` 清理缓存
-</code></pre>
-<p>   <code> hexo g </code>   生成页面<br>    <code>hexo s</code>    生成本地预览<br>   <code> hexo d  </code>  推送至GitHub </p>
-<p>hexo创建新文章命令<br>   <code> hexo new post 文章名</code><br>    执行后会在 源码的 source文件下的 _posts 文件中 生成一个名为 xxxx标题.md 的文件，文章就在这里编辑，编辑完后,按照上面四步走顺序完成发布。<br>     好啦，教程到此结束，hexo设置模板等以后再说吧！<br>     欢迎各位站长，网友，大佬 ，加入QQ群 1028183485 交流玩耍。</p>
+    <title>sharktech鲨鱼高防vps/独立服务器/建站优质主机推荐</title>
+    <url>/2022/3b852f17.html</url>
+    <content><![CDATA[<p>今天访问了下<a href="https://portal.sharktech.net/aff.php?aff=1151">sharktech</a>的官网，想看看现在<a href="https://portal.sharktech.net/aff.php?aff=1151">sharktech</a>什么样，发现之前注册的账户找不到了，于是重新注册了一个。<br>首先说下<a href="https://portal.sharktech.net/aff.php?aff=1151">sharktech</a> ，sharktech是United States of American （USA）一家专业的高防服务器提供商，自营sharktech高防机房<br>美国<a href="https://portal.sharktech.net/aff.php?aff=1151">sharktech</a>机房，又称“鲨鱼机房” [5]  ，成立于2003年，专业抗DDoS攻击的机房，采用了先进的高防 DDoS 解决方案，包括内部工程网络设备、硬件和优秀的软件<br>对大陆来说 选择los angles 机房是最优线路 速度更快。没有账户的可以到<a href="https://portal.sharktech.net/aff.php?aff=1151">sharktech</a>中文官网注册一个<br><img data-src="https://s3.bmp.ovh/imgs/2022/07/27/a019cfa42e116886.png"><br><a href="https://portal.sharktech.net/aff.php?aff=1151">https://zh.sharktech.net/</a><br>注册完账户进入主页，左边菜单点击 “购买” 选择 “云虚拟服务器cvs”。<br><img data-src="https://s3.bmp.ovh/imgs/2022/07/27/5545de751c205f66.png"><br>我看了下vps界面，带宽方面从100Mbps升级到1000Mbps了，并且价格没有变化，带宽升级！<br>vps最低配置为 1c2G 1000Mbps 40G硬盘 4TB月流量 一个IPv4，按年付款的话是打<strong>五折</strong>哦！，<br><img data-src="https://s3.bmp.ovh/imgs/2022/07/27/8fc8230db9b02791.png"><br><img data-src="https://s3.bmp.ovh/imgs/2022/07/27/49cd5c126bbe663b.png"><br>这个配置年付仅需320CNY，重点是<a href="https://portal.sharktech.net/aff.php?aff=1151">sharktech</a>免费为个IP配有<strong>60GB的DDOS防护</strong>！<br>他们家最香的就是DDOS防护了，价格非常便宜还自带防御，搭建网站非常适合。<br>独立服务器的话这边还有优惠  购买页面选择 2022年 优惠<br><img data-src="https://s3.bmp.ovh/imgs/2022/07/27/e4754acbc3960889.png"><br>Los Angeles Xeon E3-1270V2&#x2F;4 Bays  	16GB内存 500GB硬盘 	1Gbps<strong>无限流量的带宽</strong> 价格只需要 56＄&#x2F;月<br>可以说非常便宜了,想要购买的可以点击链接前往.</p>
+<h3 id="传送门"><a href="#传送门" class="headerlink" title="传送门"></a><a href="https://portal.sharktech.net/aff.php?aff=1151">传送门</a></h3>]]></content>
+      <tags>
+        <tag>林云彬博客</tag>
+        <tag>sharktech</tag>
+        <tag>鲨鱼</tag>
+        <tag>鲨鱼服务器</tag>
+        <tag>鲨鱼机房</tag>
+        <tag>鲨鱼vps</tag>
+        <tag>鲨鱼独立服务器</tag>
+        <tag>林云彬</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一款彬云自用typecho 极简风格模板 bindefault theme for typecho</title>
+    <url>/2022/4fdbc8f0.html</url>
+    <content><![CDATA[<p>一款彬云自用typecho 极简风格模板 bindefault theme for typecho<br>特点<br>1.非常简洁 （啊哈哈啊哈）<br>2.没有评论区和搜索栏<br>3.typecho官方默认模板修改而来</p>
+<p>本人就是喜欢简简单单，所以呢这个主题也是简简单单，没有任何花里胡哨。<br>手机电脑页面适配也是很好。<br>上图</p>
+<p><img data-src="https://i.imgtg.com/2022/07/12/ePacP.png"></p>
 ]]></content>
       <tags>
-        <tag>GitHub</tag>
-        <tag>GitHub搭建hexo博客</tag>
-        <tag>hexo</tag>
-        <tag>hexo静态博客</tag>
-        <tag>hexo教程</tag>
+        <tag>typecho</tag>
+        <tag>极简模板</tag>
+        <tag>typecho模板</tag>
       </tags>
   </entry>
   <entry>
@@ -637,19 +627,29 @@
       </tags>
   </entry>
   <entry>
-    <title>sharktech鲨鱼高防vps/独立服务器/建站优质主机推荐</title>
-    <url>/2022/3b852f17.html</url>
-    <content><![CDATA[<p>今天访问了下<a href="https://portal.sharktech.net/aff.php?aff=1151">sharktech</a>的官网，想看看现在<a href="https://portal.sharktech.net/aff.php?aff=1151">sharktech</a>什么样，发现之前注册的账户找不到了，于是重新注册了一个。<br>首先说下<a href="https://portal.sharktech.net/aff.php?aff=1151">sharktech</a> ，sharktech是United States of American （USA）一家专业的高防服务器提供商，自营sharktech高防机房<br>美国<a href="https://portal.sharktech.net/aff.php?aff=1151">sharktech</a>机房，又称“鲨鱼机房” [5]  ，成立于2003年，专业抗DDoS攻击的机房，采用了先进的高防 DDoS 解决方案，包括内部工程网络设备、硬件和优秀的软件<br>对大陆来说 选择los angles 机房是最优线路 速度更快。没有账户的可以到<a href="https://portal.sharktech.net/aff.php?aff=1151">sharktech</a>中文官网注册一个<br><img data-src="https://s3.bmp.ovh/imgs/2022/07/27/a019cfa42e116886.png"><br><a href="https://portal.sharktech.net/aff.php?aff=1151">https://zh.sharktech.net/</a><br>注册完账户进入主页，左边菜单点击 “购买” 选择 “云虚拟服务器cvs”。<br><img data-src="https://s3.bmp.ovh/imgs/2022/07/27/5545de751c205f66.png"><br>我看了下vps界面，带宽方面从100Mbps升级到1000Mbps了，并且价格没有变化，带宽升级！<br>vps最低配置为 1c2G 1000Mbps 40G硬盘 4TB月流量 一个IPv4，按年付款的话是打<strong>五折</strong>哦！，<br><img data-src="https://s3.bmp.ovh/imgs/2022/07/27/8fc8230db9b02791.png"><br><img data-src="https://s3.bmp.ovh/imgs/2022/07/27/49cd5c126bbe663b.png"><br>这个配置年付仅需320CNY，重点是<a href="https://portal.sharktech.net/aff.php?aff=1151">sharktech</a>免费为个IP配有<strong>60GB的DDOS防护</strong>！<br>他们家最香的就是DDOS防护了，价格非常便宜还自带防御，搭建网站非常适合。<br>独立服务器的话这边还有优惠  购买页面选择 2022年 优惠<br><img data-src="https://s3.bmp.ovh/imgs/2022/07/27/e4754acbc3960889.png"><br>Los Angeles Xeon E3-1270V2&#x2F;4 Bays  	16GB内存 500GB硬盘 	1Gbps<strong>无限流量的带宽</strong> 价格只需要 56＄&#x2F;月<br>可以说非常便宜了,想要购买的可以点击链接前往.</p>
-<h3 id="传送门"><a href="#传送门" class="headerlink" title="传送门"></a><a href="https://portal.sharktech.net/aff.php?aff=1151">传送门</a></h3>]]></content>
+    <title>使用GitHub搭建hexo静态博客教程最新精心制作版</title>
+    <url>/2022/8ccb697d.html</url>
+    <content><![CDATA[<p>满满都是干货，没有一滴水分。阿彬我也是最近才玩儿这个hexo博客系统，hexo看起来还不错，在网上也找了许多搭建教程，看的晕头转向，错误频出，于是我就自己摸索总结出了本文，希望能够帮助到大家，教程真是非常细致，喜欢救收藏一下吧！<br>为什么用GitHub搭建hexo博客呢？ GitHub是什么就不多说，关键是它免费啊，在大陆搭建网站又要备案，又有人天天管你，网站基本就纯公益型，使用GitHub搭建hexo，你甚至什么钱都不用花，一套免费还稳定的博客，只需要你勤劳的双手点一点就可以实现，何乐而不为呢？，说他缺点吧，也有，就是大陆访问速度一般，不过这不算什么，相信大家都懂。<br>好了，废话不多说，直接上来开始干</p>
+<h3 id="我使用的是Windows11-系统搭建的，其他的不清楚。"><a href="#我使用的是Windows11-系统搭建的，其他的不清楚。" class="headerlink" title="我使用的是Windows11 系统搭建的，其他的不清楚。"></a>我使用的是Windows11 系统搭建的，其他的不清楚。</h3><p>首先上 下载两款必备软件 链接都准备好了 </p>
+<p>一款 Nodejs，另一款 Git</p>
+<h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a><a href="https://git-scm.com/download/win">Git</a></h3><h3 id="Nodejs"><a href="#Nodejs" class="headerlink" title="Nodejs"></a><a href="https://nodejs.org/en/download/">Nodejs</a></h3><p>下载完成后创建一个文件夹（网站目录所在地）<br>右键该文件夹 找到 “Git Bash Here” 单击运行 你会看到这个窗口<br><img data-src="https://s1.ax1x.com/2022/07/21/jLKVEQ.png"> 没问题 进行下一步<br>输入 <code>node -v</code><br>输入 <code> npm -v</code><br>查看版本号<br>   <img data-src="https://s1.ax1x.com/2022/07/21/jLKWxP.png"><br>输入   <code>hexo init</code> 初始化博客 ,从GitHub下载源码到本地目录<br><img data-src="https://s1.ax1x.com/2022/07/21/jLKoVg.png"><br>稍等片刻 等待下载完成<br>输入  <code>hexo -vision</code> 查看版本信息 如图 hexo已经安装完毕<br><img data-src="https://s1.ax1x.com/2022/07/21/jLKvrT.png"><br>输入 <code> hexo clean</code>清理<br>输入   <code>  hexo g</code> 生成页面<br><img data-src="https://s1.ax1x.com/2022/07/21/jLMGsf.png"><br>输入  <code>  hexo s</code> 生成本地预览<br><img data-src="https://s1.ax1x.com/2022/07/21/jLMBzq.png"><br>到这一步，打开浏览器 复制提示的网址 访问网站 ，如果无法访问 使用 hexo server -p 5000 来更改端口（5000为端口号）<br><img data-src="https://s1.ax1x.com/2022/07/21/jLMrQ0.png"></p>
+<p>安装GIT部署插件<br>输入   <code>npm install hexo-deployer-git --save</code><br> 本地的hexo就已经部署完毕了</p>
+<p>接下来生成密钥<br>输入  <code> git config --global user.name &quot;你的GitHub用户名&quot;</code></p>
+<p>输入 <code>  git config --global user.email &quot;你的GitHub注册邮箱&quot;</code></p>
+<p>接下来生成密钥<br>输入 <code>ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot; </code><br>直接三个回车，根据提示找到生成的.ssh的文件夹中的id_rsa.pub密钥，将内容全部复制。<br> 打开 GitHub.com ，没有账户使用邮箱注册一个<br> 有的话直接点链接进入<br> <a href="https://github.com/settings/keys">keys设置页面</a><br> 进入主页 右上角 setting ， 点击左侧 SSH and GPG keys<br><img data-src="https://s1.ax1x.com/2022/07/21/jLMqTe.png"><br> 标题随意，把生成的密钥粘贴进去， 最后点击Add SSH key。<br> <img data-src="https://s1.ax1x.com/2022/07/21/jLQfHS.png"><br> 在Git Bash中检测GitHub公钥设置是否成功<br> 输入 <code>ssh git@github.com</code><br> 如果提示中 开头 有你的用户名 或看到 successfully，表示成功。<br> 密钥是用来连接GitHub仓库的，只有经过验证才可以上传到仓库，确保安全性。<br> 接下来 找到你电脑创建的hexo源码的目录 找到_config.yml 文件 （站点配置）。 theme中的是主题配置文件。<br> 打开站点的配置文件_config.yml，翻到最后修改为：<br><img data-src="https://s1.ax1x.com/2022/07/21/jLGxpQ.png" alt="jLGxpQ.png"><br>deploy:<br>type: git<br>repo: <a href="mailto:&#103;&#x69;&#x74;&#64;&#x67;&#x69;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#109;">&#103;&#x69;&#x74;&#64;&#x67;&#x69;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#109;</a>:你的用户名&#x2F;你的用户名.github.io.git<br>branch: main<br> repo中的内容就是你进入仓库后 页面中间 绿色按钮 code，里面的ssh链接。<br> branch是仓库的默认名，看你仓库用的是 main还是master，现在默认是main，具体看你仓库branches设置 <a href="https://github.com/settings/keys">传送门</a></p>
+<p> 最后再输入<br>    <code> hexo clean</code> 清理<br>   <code> hexo g  </code>生成页面<br>  <code>  hexo d </code> 发布到GitHub<br> 现在进入GitHub 中你的域名就可以看到网站啦，你的域名就是最开始设置的库名 xxx.github.io<br> 你还想个性一点的话，可以在github设置自定义域名<br> 在仓库点击settings ，是页面中上边的setings，不是右上角的。<br> <img data-src="https://s1.ax1x.com/2022/07/21/jL1cef.png"><br> 左边找到 pages 进入 在custom domain 设置你自己的域名，域名直接cname解析至 你的仓库域名即可。<br> <img data-src="https://s1.ax1x.com/2022/07/21/jL3tcn.png"></p>
+<p> 现在你就可以用自己的域名访问hexo啦！<br> 如果你发布的文章上传到GitHub后 自定义域名失效了，那么你就到GitHub 重新设置一下，然后在仓库里把 cname这个文件下载下来，里面是你的域名，把这个文件放置到你本地源码的 source中，这样以后发布也不会失效了。<br> 下面是几个命令<br>发布文章一定按照这个顺序进行</p>
+<pre><code>` hexo clean` 清理缓存
+</code></pre>
+<p>   <code> hexo g </code>   生成页面<br>    <code>hexo s</code>    生成本地预览<br>   <code> hexo d  </code>  推送至GitHub </p>
+<p>hexo创建新文章命令<br>   <code> hexo new post 文章名</code><br>    执行后会在 源码的 source文件下的 _posts 文件中 生成一个名为 xxxx标题.md 的文件，文章就在这里编辑，编辑完后,按照上面四步走顺序完成发布。<br>     好啦，教程到此结束，hexo设置模板等以后再说吧！<br>     欢迎各位站长，网友，大佬 ，加入QQ群 1028183485 交流玩耍。</p>
+]]></content>
       <tags>
-        <tag>林云彬博客</tag>
-        <tag>sharktech</tag>
-        <tag>鲨鱼</tag>
-        <tag>鲨鱼服务器</tag>
-        <tag>鲨鱼机房</tag>
-        <tag>鲨鱼vps</tag>
-        <tag>鲨鱼独立服务器</tag>
-        <tag>林云彬</tag>
+        <tag>GitHub</tag>
+        <tag>GitHub搭建hexo博客</tag>
+        <tag>hexo</tag>
+        <tag>hexo静态博客</tag>
+        <tag>hexo教程</tag>
       </tags>
   </entry>
   <entry>
@@ -703,18 +703,6 @@
       </tags>
   </entry>
   <entry>
-    <title>把博客迁移到新笔记本上了</title>
-    <url>/2022/6d23f9a9.html</url>
-    <content><![CDATA[<p><strong>本来是在网上搜索如何迁移的问题，试了试网上的教程，感觉有些繁琐，试了几次均未成功，于是我便开启了简单粗暴模式，把台式电脑上的文件全部打包转移至新的电脑上，然后在新电脑上安装git和nodejs，后面再重新生成连接密钥折腾完后测试没有问题，就这样完成了博客迁移。</strong></p>
-]]></content>
-      <tags>
-        <tag>林云彬博客</tag>
-        <tag>blog</tag>
-        <tag>博客迁移</tag>
-        <tag>hexo迁移</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>政治一单元测试题答案解析</title>
     <url>/2022/c2498f97.html</url>
     <content><![CDATA[<p>人生价值评价的根本尺度，是看一个人的人生活动（），是否促进了历史的进步。</p>
@@ -753,6 +741,131 @@
         <tag>政治答案</tag>
         <tag>政治测试题</tag>
         <tag>anwser</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>把博客迁移到新笔记本上了</title>
+    <url>/2022/6d23f9a9.html</url>
+    <content><![CDATA[<p><strong>本来是在网上搜索如何迁移的问题，试了试网上的教程，感觉有些繁琐，试了几次均未成功，于是我便开启了简单粗暴模式，把台式电脑上的文件全部打包转移至新的电脑上，然后在新电脑上安装git和nodejs，后面再重新生成连接密钥折腾完后测试没有问题，就这样完成了博客迁移。</strong></p>
+]]></content>
+      <tags>
+        <tag>林云彬博客</tag>
+        <tag>blog</tag>
+        <tag>博客迁移</tag>
+        <tag>hexo迁移</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语代词/人称主格宾格/人称物主代词</title>
+    <url>/2022/7209d8af.html</url>
+    <content><![CDATA[<p> 废话不多说，直接上图。</p>
+<p><img data-src="https://s1.ax1x.com/2022/07/25/jvmhVO.jpg"></p>
+]]></content>
+      <tags>
+        <tag>English</tag>
+        <tag>英语</tag>
+        <tag>英语代词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>世界文化地理试题集合</title>
+    <url>/2022/eab60aa3.html</url>
+    <content><![CDATA[<p>河流常常会改道，所以，国家之间以河流划界并不理想。 <strong>正确</strong></p>
+<p>印度人不吃牛肉汉堡，麦当劳就推出羊肉汉堡，是麦当劳文化全球化的本土化战略表现之一。<strong>正确</strong></p>
+<p>多核心模式是由哈里斯和乌尔曼于1945年提出的，认为城市发展过程中，起决定性作用的不光是CBD单一核心城市发展实际上是围绕着多个核心进行  <strong>正确</strong></p>
+<p>加拿大是一个单民族国家，主流文化是盎格鲁文化居民大部分都讲英语，信仰新教。 <strong>错误</strong></p>
+<p>文化全球化会使各民族文化之间的界限趋于消亡。 <strong>错误</strong></p>
+<p>一些国家的形状由于自然的或人为的原因呈长条形。典型的长条形国家有（<strong>越南 智利 朝鲜 挪威</strong>）瑞典、意大利等。</p>
+<p>由于受到文艺复兴理性主义思想的影响，中世纪不规则的城市形态开始变得规整起来，城市的几何形态逐渐显现出来。巴洛克城市通过（<strong>大型的标志建筑 规则的几何街道布局 开放的街道空间</strong>）来展示专制君主的权力  </p>
+<p>普遍宗教是所有人种、种族都可以信仰的宗教，主要有（<strong>伊斯兰教 .锡克教 .佛教 .基督教</strong></p>
+<p>）</p>
+<p>海权论是美国海军军官马汉通过对世界海战历史，特别是通过对美国海军发展史以及海上霸权形成史的研究后提出的理论。海权论的核心思想是：（）</p>
+<p><em><strong>物质财富是国家强大的基础，而为了积累财富，一个国家就必须生产和在世界各地进行贸易</strong></em>*</p>
+<p><strong>海洋是自然赐予的伟大公路，一个国家要想成为世界强国，必须能在海洋上自由行动</strong> </p>
+<p><strong>任何国家或联盟，如果充分控制了公海，就能控制世界各地的贸易和财富</strong>**</p>
+<p>关于世界地缘政治理论，不同的学者提出了不同的理论。近代以来，比较有影响的地缘政治理论主要有（  <strong>国家有机体论 .多极理论 .海权论 .陆缘学说</strong>）、心脏地带学说、泛区理论、文明冲突理论等   </p>
+<p>首先开始海上探险和殖民扩张活动的欧洲国家是（ <strong>俄罗斯 葡萄牙</strong>） </p>
+<p>早期人种划分中，比较有名的是三分法和四分法。后来加恩于20世纪60年代提出了地理人种的概念，并将人种划分为三个层次：（<strong>地理人种 小人种 地域人种</strong>）。</p>
+<p>海上新航线开辟以后，葡萄牙人在非洲建立了（<strong>佛得角 .安哥拉 .几内亚（比绍） .圣多美-普林西比</strong>）等殖民地。 </p>
+<p>全世界大约有200个国家。世界上国家的数量虽然很多，但是其基本形状大体上有（<strong>紧密形 长条形 穿孔形 松散形 蝌蚪形</strong>）。</p>
+<p>文化本土化的表现形式包括（<strong>内趋性的取向 .外来文化的包装与适应 .外扬的趋向</strong>）</p>
+<p>早期的城市主要分布在两河流域、尼罗河中下游、印度河流域、黄河中下游等地，它们的共同特征有（<strong>有利于向周围征集农产品 有利于农业灌溉</strong>）。</p>
+<p>（<strong>东亚教原教旨主义运动，印度教原教旨主义运动 伊斯兰原教旨主义运动</strong>）等文化本土化运动，包含着希望摆脱文化侵略而带来的认同危机，以重新确立民族的精神支柱。</p>
+<p>伊斯兰教首先起源于阿拉伯半岛的（ <strong>麦加 麦地那</strong>），先知穆罕默德早期在这里传教。</p>
+<p> 海上新航线开辟以后，葡萄牙人开始在非洲、亚洲进行一系列的殖民活动。1557年向中国租借澳门；1590年占领了福摩萨，即（ <strong>中国台湾</strong>）</p>
+<p>（<strong>基督教</strong>）是信仰人数最多的宗教，大约有20多亿信众。目前，该教遍及欧洲、美洲、亚洲北部大部分、南非、澳洲等地方。 </p>
+<p>自从人类诞生之时起，不同规模、不同范围内的迁移现象就已经存在了。第二次世界大战以后，（<strong>农村向城市迁移</strong>）是国内人口迁移的重要形式   </p>
+<p>基督教以《旧约全书》与《新约全书》为圣经。信仰上帝创造并主宰世界，认为人类从始祖起就犯有罪，并在罪中受苦，只有信仰上帝及其儿子（ <strong>耶稣基督</strong>）才能获救     </p>
+<p> 中国古代的“地理”主要包括政区地理、山水地理、堪舆地理三个方面。著名的《水经注》就是山水地理的著作。它是以（<strong>山川河流的分布</strong>）为纲，进而将各种地理事物和历史事实附加其中的。 </p>
+<p>1504年，意大利人（<strong>亚美利哥</strong>）通过考察，发现哥伦布到达的这些地方不是印度，而是一个原来不为人认知的新大陆。人们为了纪念他，将新大陆命名为美洲</p>
+<p>印度最重要的宗教，信仰的人数占印度人口80%以上，是民族宗教中人数最多的宗教 （<strong>印度教</strong>）</p>
+<p>与西欧的城市发展模式相同，东欧城市发展模式采取统一规划城市布局，限制中心城市规模，发展卫星城，形成多中心城市。 <strong>错误</strong></p>
+<p>精耕旱作农业是一种混合型农业，种植谷物、块根作物并从事养殖。这是一种主要分布在生态环境相对脆弱地区的生态环境类型。 <strong>错误</strong></p>
+<p>种族是文化人类学的概念，是根据文化属性对人群的划分。同一种族的人群具有强烈的认同感，在语言、宗教或其他文化特点上与其他人群相区别。 <strong>正确</strong></p>
+<p>世界上只有一个共同的人种，即现代智人种。 <strong>正确</strong></p>
+<p>1382年英语圣经的出现，结束了拉丁语的宗教语言地位。这时英语才成为英国的全民语言。 <strong>正确</strong></p>
+<p>高纬度地区温度低，为了保暖，身体的脂肪层增厚，躯体增大，四肢较短，这样可以减少身体的表面积，减少散热。   <strong>正确</strong></p>
+<p>犹太教是世界上最早的单一神的宗教。基督教、伊斯兰教都是在犹太教的基础上发展起来的。<strong>正确</strong></p>
+<p> 文化边界是根据语言、宗教、政治等文化要素划定的。文化边界包括（*<em>宗教边界，</em>政治边界<em>，几何边界</em>，语言边界****）等形式。</p>
+<p>在印第安土著文明曾经发达的地区，如秘鲁、墨西哥等过，以（<strong>印-欧混血，印第安人</strong>）人种为主。</p>
+<p>美国学者加恩在20世纪60年代提出了地理人种的概念，并将人种划分为三个层次（*<em>地理人种，小人种，地域人种</em>***）</p>
+<p>拉丁美洲以白人为主的国家有（*<em>乌拉圭，巴西，阿根廷</em>***）</p>
+<p>关于印欧语系的起源大致有两种观点：库尔干起源理论和安纳托利亚起源论。关于这两种观点，说法正确的有（）。</p>
+<p> <strong>.印欧语言库尔干起源论是武力传播理论，认为具有流动性的游牧民族是语言传播的载体。<br>库尔干起源理论产生于20世纪中叶，认为在库尔干地区，即乌克兰、南俄罗斯，黑海和里海的北部地区，是印欧语言起源的地方。</strong>**<br><strong>.安纳托利亚起源论 于20世纪80年代被一些学者提出，认为印欧语系的起源位于土耳其东部的安纳托利亚地区。</strong>**</p>
+<p>在农业发展过程中，最重要的是驯化。农作物驯化中心主要集中在（<strong>东南亚</strong>，<strong>西亚</strong>，<strong>中美洲</strong>）地区。被驯化后的农作物通过人类活动被带到了其他地方。</p>
+<p> 不同的地理环境中，人的（<strong>体型，鼻型，肤色，发型。</strong>）等会呈现一定的差别。人的体型外貌的变化，很大程度上是由于长期生活在一定的区域环境，对环境适应的结果。</p>
+<p>地域人种是地理人种的次一级单位，划分依据是人种之间的两种差别：（）。</p>
+<p><strong><strong><strong>地理隔绝和环境适应造成的差别，体质和基因上的隐型差别</strong></strong></strong></p>
+<p>(<strong>英国）</strong>是世界上最早开始近代城市化的国家。在工业革命的推动下，19世纪该国出现了一大批工业城市。</p>
+<p><strong>印欧语系</strong>是世界上最大的语系，主要包括希腊语、凯尔特语、阿尔巴尼亚语、日耳曼语族、罗曼语族、斯拉夫语族、亚美尼亚语、印度-伊朗语族。该语系的使用人数占世界人口的50%。</p>
+<p>地理大发现以来的500年间，（<strong>欧洲</strong>）地理人种的迁移最为明显 </p>
+<p>中国城市设计强调<strong><em>*<em><strong><em>（天人感应</em>）</strong></em>*</em>*</strong>的思想，君主的宫殿通常建立在南北轴线上的夯土高台上，来强化高度集中的君主的权利和威严。</p>
+<p>有些种族并没有建立自己的国家，而是分布于几个不同国家中，如 <strong>.库尔德族</strong></p>
+<p>当代世界人口的也呈现出分布不平衡的特点，其中起决定性作用的因素是 <strong>社会因素</strong></p>
+<p>黄种人狭细的眼裂，较平的鼻部和额部，可能与亚洲中部多（<strong>风沙</strong>）的环境有关</p>
+<p><strong>汉藏语系</strong>是世界第二大语系。它的起源跟中国早期的农业起源地有密切关系。</p>
+<p>在美国地理学家布里吉划分的12个世界文化区中，美洲被分成北美、中美、南美3个文化区。其中，中美文化区属于（<em><strong>拉丁文化区</strong></em><em>）文化区 ，</em>*</p>
+<h4 id="关于血型的说法正确的是"><a href="#关于血型的说法正确的是" class="headerlink" title="关于血型的说法正确的是"></a>关于血型的说法正确的是</h4><p><strong>Ｏ型血人群主要集中在美洲</strong></p>
+<p><strong>Ａ型血人群主要集中在欧洲</strong></p>
+<p><strong>Ｂ型血人群主要集中在亚洲</strong></p>
+<p>同心环模式将城市表面分为哪些城市环带</p>
+<p><strong>蓝领居住区，过渡区 ，通勤居住区 ，中等收入居住区 ，中心商务区</strong></p>
+<p><strong>现代拉丁美洲城市的发展大多表现为变形的楔开模式</strong> </p>
+<hr>
+<h1 id="阿彬搜索整理不易，喜欢的可以分享本站给朋友哦。"><a href="#阿彬搜索整理不易，喜欢的可以分享本站给朋友哦。" class="headerlink" title="阿彬搜索整理不易，喜欢的可以分享本站给朋友哦。"></a>阿彬搜索整理不易，喜欢的可以分享本站给朋友哦。</h1>]]></content>
+      <tags>
+        <tag>国家地理</tag>
+        <tag>地理知识</tag>
+        <tag>测试题</tag>
+        <tag>answer</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>联通王卡29元包100g流量官方永久套餐速度上车</title>
+    <url>/2022/f6eba568.html</url>
+    <content><![CDATA[<h1 id="最新消息已失效"><a href="#最新消息已失效" class="headerlink" title="最新消息已失效"></a><strong><u>最新消息已失效</u></strong></h1><h1 id="最新消息已失效-1"><a href="#最新消息已失效-1" class="headerlink" title="最新消息已失效"></a><strong><u>最新消息已失效</u></strong></h1><h1 id="最新消息已失效-2"><a href="#最新消息已失效-2" class="headerlink" title="最新消息已失效"></a><strong><u>最新消息已失效</u></strong></h1><p> 联通最新大流量手机套餐，<strong>官方！官方！官方！</strong> 重要的话说三遍，不是市面上的物联网卡，联通官方套餐，长期套餐。</p>
+<h4 id="29元包100G流量-70G全国通用流量＋30G定向流量"><a href="#29元包100G流量-70G全国通用流量＋30G定向流量" class="headerlink" title="29元包100G流量 70G全国通用流量＋30G定向流量"></a>29元包100G流量 70G全国通用流量＋30G定向流量</h4><h4 id="定向流量对300款APP免流使用，腾讯系，阿里系，百度系，哔哩哔哩……，基本都能覆盖，"><a href="#定向流量对300款APP免流使用，腾讯系，阿里系，百度系，哔哩哔哩……，基本都能覆盖，" class="headerlink" title="定向流量对300款APP免流使用，腾讯系，阿里系，百度系，哔哩哔哩……，基本都能覆盖，"></a>定向流量对300款APP免流使用，腾讯系，阿里系，百度系，哔哩哔哩……，基本都能覆盖，</h4><p>具体免流如下</p>
+<h2 id="免流范围说明"><a href="#免流范围说明" class="headerlink" title="免流范围说明"></a><a href="https://txwk.10010.com/wkpen/view/b6a7d6F63d.html?channel=08-2278-8681-a0mu&unicomClientMethod=unicomClientGet">免流范围说明</a></h2><h5 id="归属地自选-号码自选，"><a href="#归属地自选-号码自选，" class="headerlink" title="归属地自选 号码自选，"></a>归属地自选 号码自选，</h5><p>首充50话费到账100，就是充50送50，有些地方可能充得多送的更多，联通人员上门激活时首充！<br>花费是分月返还，每月10元，半年19，后面就是29&#x2F;月，非常划算。<br>可以添加最多8个亲情号码，给亲情号码打电话免费。<br>语音和短信都是0.1元&#x2F;分钟&#x2F;条，送来电显示。<br>套餐外流量5元1G月租包，一般套餐内这100G就够用了。</p>
+<h2 id="活动不知道什么时候就没了，听说要涨价了，需要的赶紧屯货！"><a href="#活动不知道什么时候就没了，听说要涨价了，需要的赶紧屯货！" class="headerlink" title="活动不知道什么时候就没了，听说要涨价了，需要的赶紧屯货！"></a><strong>活动不知道什么时候就没了，听说要涨价了，需要的赶紧屯货！</strong></h2><h1 id="已失效"><a href="#已失效" class="headerlink" title="已失效"></a><em><strong>已失效</strong></em></h1>]]></content>
+      <tags>
+        <tag>联通王卡</tag>
+        <tag>大流量联通手机卡</tag>
+        <tag>中国联通</tag>
+        <tag>联通流量卡</tag>
+        <tag>联通官方套餐</tag>
+        <tag>29元包100G流量套餐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>腾讯QQ即将推出svip10 会员等级 谈谈看法</title>
+    <url>/2022/c0e51802.html</url>
+    <content><![CDATA[<p>腾讯QQ即将推出svip10 会员等级 谈谈看法<br>QQ微信这些相信大家都不会陌生了吧，国内即时通信很多都是靠腾讯的产品，这也是腾讯流量为王的绝技。<br>QQ的等级体系是很丰富的，像什么QQ会员，QQ超级会员，QQ的等级，每天登陆就给你成长值到了一定时间就可以升级，星星，月亮，太阳，皇冠这样子。皇冠就是满级了，目前是这样的。<br>微信就没有这么多花里胡哨的功能，就是纯聊天 ，我想QQ主要就是针对年轻人的产品吧，微信更偏向于商业，工作。<br>最近几年QQ等级从svip8 升级到了svip9，现在又要推出是SVIP10了，功能是越来越花哨了，我自己也是经常使用腾讯的产品，QQ搞得太花哨了，我现在使用的是TIM，定位是纯办公，所以里面基本跟微信一样，聊天也看不到什么耀眼的气泡，等级，都是没有的。<br><img data-src="https://i.imgtg.com/2022/05/22/hZmqD.jpg"><br>腾讯最近推出SVIP10，主要就是标签看着升级了，更花哨了，最低488元，不过跟其他等级不同的是，这次是永久的标志，对此我想提醒大家的是，QQ账号只有使用权，没有拥有权，到时候因为什么事情封了的话可就得不偿失了，充值需谨慎，当然土豪随意，下面是介绍。<br><img data-src="https://i.imgtg.com/2022/05/22/hZeic.jpg"><br>注意 ：参与升级svip10需要 会员成长值达到15万<br>看来必须得铁粉才能升级啊。（手动滑稽）<br>488元的套餐是1星的等级，最高的是3星等级需要1198元，<br>免费获得的是需要拿自己5w成长值兑换一年时间的SVIP10，<br>还有就是等级加速速度更快了。</p>
+<p>看了这么多，作为穷*的博主还是开通不起的，后辈当自强啊！<br>参与链接 腾讯QQSVIP10开通预约</p>
+]]></content>
+      <tags>
+        <tag>腾讯QQ</tag>
+        <tag>QQ svip10</tag>
+        <tag>腾讯会员</tag>
       </tags>
   </entry>
   <entry>
@@ -854,119 +967,6 @@
         <tag>美国服务器</tag>
         <tag>大带宽vps</tag>
         <tag>los angeles</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>联通王卡29元包100g流量官方永久套餐速度上车</title>
-    <url>/2022/f6eba568.html</url>
-    <content><![CDATA[<h1 id="最新消息已失效"><a href="#最新消息已失效" class="headerlink" title="最新消息已失效"></a><strong><u>最新消息已失效</u></strong></h1><h1 id="最新消息已失效-1"><a href="#最新消息已失效-1" class="headerlink" title="最新消息已失效"></a><strong><u>最新消息已失效</u></strong></h1><h1 id="最新消息已失效-2"><a href="#最新消息已失效-2" class="headerlink" title="最新消息已失效"></a><strong><u>最新消息已失效</u></strong></h1><p> 联通最新大流量手机套餐，<strong>官方！官方！官方！</strong> 重要的话说三遍，不是市面上的物联网卡，联通官方套餐，长期套餐。</p>
-<h4 id="29元包100G流量-70G全国通用流量＋30G定向流量"><a href="#29元包100G流量-70G全国通用流量＋30G定向流量" class="headerlink" title="29元包100G流量 70G全国通用流量＋30G定向流量"></a>29元包100G流量 70G全国通用流量＋30G定向流量</h4><h4 id="定向流量对300款APP免流使用，腾讯系，阿里系，百度系，哔哩哔哩……，基本都能覆盖，"><a href="#定向流量对300款APP免流使用，腾讯系，阿里系，百度系，哔哩哔哩……，基本都能覆盖，" class="headerlink" title="定向流量对300款APP免流使用，腾讯系，阿里系，百度系，哔哩哔哩……，基本都能覆盖，"></a>定向流量对300款APP免流使用，腾讯系，阿里系，百度系，哔哩哔哩……，基本都能覆盖，</h4><p>具体免流如下</p>
-<h2 id="免流范围说明"><a href="#免流范围说明" class="headerlink" title="免流范围说明"></a><a href="https://txwk.10010.com/wkpen/view/b6a7d6F63d.html?channel=08-2278-8681-a0mu&unicomClientMethod=unicomClientGet">免流范围说明</a></h2><h5 id="归属地自选-号码自选，"><a href="#归属地自选-号码自选，" class="headerlink" title="归属地自选 号码自选，"></a>归属地自选 号码自选，</h5><p>首充50话费到账100，就是充50送50，有些地方可能充得多送的更多，联通人员上门激活时首充！<br>花费是分月返还，每月10元，半年19，后面就是29&#x2F;月，非常划算。<br>可以添加最多8个亲情号码，给亲情号码打电话免费。<br>语音和短信都是0.1元&#x2F;分钟&#x2F;条，送来电显示。<br>套餐外流量5元1G月租包，一般套餐内这100G就够用了。</p>
-<h2 id="活动不知道什么时候就没了，听说要涨价了，需要的赶紧屯货！"><a href="#活动不知道什么时候就没了，听说要涨价了，需要的赶紧屯货！" class="headerlink" title="活动不知道什么时候就没了，听说要涨价了，需要的赶紧屯货！"></a><strong>活动不知道什么时候就没了，听说要涨价了，需要的赶紧屯货！</strong></h2><h1 id="已失效"><a href="#已失效" class="headerlink" title="已失效"></a><em><strong>已失效</strong></em></h1>]]></content>
-      <tags>
-        <tag>联通王卡</tag>
-        <tag>大流量联通手机卡</tag>
-        <tag>中国联通</tag>
-        <tag>联通流量卡</tag>
-        <tag>联通官方套餐</tag>
-        <tag>29元包100G流量套餐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>世界文化地理试题集合</title>
-    <url>/2022/eab60aa3.html</url>
-    <content><![CDATA[<p>河流常常会改道，所以，国家之间以河流划界并不理想。 <strong>正确</strong></p>
-<p>印度人不吃牛肉汉堡，麦当劳就推出羊肉汉堡，是麦当劳文化全球化的本土化战略表现之一。<strong>正确</strong></p>
-<p>多核心模式是由哈里斯和乌尔曼于1945年提出的，认为城市发展过程中，起决定性作用的不光是CBD单一核心城市发展实际上是围绕着多个核心进行  <strong>正确</strong></p>
-<p>加拿大是一个单民族国家，主流文化是盎格鲁文化居民大部分都讲英语，信仰新教。 <strong>错误</strong></p>
-<p>文化全球化会使各民族文化之间的界限趋于消亡。 <strong>错误</strong></p>
-<p>一些国家的形状由于自然的或人为的原因呈长条形。典型的长条形国家有（<strong>越南 智利 朝鲜 挪威</strong>）瑞典、意大利等。</p>
-<p>由于受到文艺复兴理性主义思想的影响，中世纪不规则的城市形态开始变得规整起来，城市的几何形态逐渐显现出来。巴洛克城市通过（<strong>大型的标志建筑 规则的几何街道布局 开放的街道空间</strong>）来展示专制君主的权力  </p>
-<p>普遍宗教是所有人种、种族都可以信仰的宗教，主要有（<strong>伊斯兰教 .锡克教 .佛教 .基督教</strong></p>
-<p>）</p>
-<p>海权论是美国海军军官马汉通过对世界海战历史，特别是通过对美国海军发展史以及海上霸权形成史的研究后提出的理论。海权论的核心思想是：（）</p>
-<p><em><strong>物质财富是国家强大的基础，而为了积累财富，一个国家就必须生产和在世界各地进行贸易</strong></em>*</p>
-<p><strong>海洋是自然赐予的伟大公路，一个国家要想成为世界强国，必须能在海洋上自由行动</strong> </p>
-<p><strong>任何国家或联盟，如果充分控制了公海，就能控制世界各地的贸易和财富</strong>**</p>
-<p>关于世界地缘政治理论，不同的学者提出了不同的理论。近代以来，比较有影响的地缘政治理论主要有（  <strong>国家有机体论 .多极理论 .海权论 .陆缘学说</strong>）、心脏地带学说、泛区理论、文明冲突理论等   </p>
-<p>首先开始海上探险和殖民扩张活动的欧洲国家是（ <strong>俄罗斯 葡萄牙</strong>） </p>
-<p>早期人种划分中，比较有名的是三分法和四分法。后来加恩于20世纪60年代提出了地理人种的概念，并将人种划分为三个层次：（<strong>地理人种 小人种 地域人种</strong>）。</p>
-<p>海上新航线开辟以后，葡萄牙人在非洲建立了（<strong>佛得角 .安哥拉 .几内亚（比绍） .圣多美-普林西比</strong>）等殖民地。 </p>
-<p>全世界大约有200个国家。世界上国家的数量虽然很多，但是其基本形状大体上有（<strong>紧密形 长条形 穿孔形 松散形 蝌蚪形</strong>）。</p>
-<p>文化本土化的表现形式包括（<strong>内趋性的取向 .外来文化的包装与适应 .外扬的趋向</strong>）</p>
-<p>早期的城市主要分布在两河流域、尼罗河中下游、印度河流域、黄河中下游等地，它们的共同特征有（<strong>有利于向周围征集农产品 有利于农业灌溉</strong>）。</p>
-<p>（<strong>东亚教原教旨主义运动，印度教原教旨主义运动 伊斯兰原教旨主义运动</strong>）等文化本土化运动，包含着希望摆脱文化侵略而带来的认同危机，以重新确立民族的精神支柱。</p>
-<p>伊斯兰教首先起源于阿拉伯半岛的（ <strong>麦加 麦地那</strong>），先知穆罕默德早期在这里传教。</p>
-<p> 海上新航线开辟以后，葡萄牙人开始在非洲、亚洲进行一系列的殖民活动。1557年向中国租借澳门；1590年占领了福摩萨，即（ <strong>中国台湾</strong>）</p>
-<p>（<strong>基督教</strong>）是信仰人数最多的宗教，大约有20多亿信众。目前，该教遍及欧洲、美洲、亚洲北部大部分、南非、澳洲等地方。 </p>
-<p>自从人类诞生之时起，不同规模、不同范围内的迁移现象就已经存在了。第二次世界大战以后，（<strong>农村向城市迁移</strong>）是国内人口迁移的重要形式   </p>
-<p>基督教以《旧约全书》与《新约全书》为圣经。信仰上帝创造并主宰世界，认为人类从始祖起就犯有罪，并在罪中受苦，只有信仰上帝及其儿子（ <strong>耶稣基督</strong>）才能获救     </p>
-<p> 中国古代的“地理”主要包括政区地理、山水地理、堪舆地理三个方面。著名的《水经注》就是山水地理的著作。它是以（<strong>山川河流的分布</strong>）为纲，进而将各种地理事物和历史事实附加其中的。 </p>
-<p>1504年，意大利人（<strong>亚美利哥</strong>）通过考察，发现哥伦布到达的这些地方不是印度，而是一个原来不为人认知的新大陆。人们为了纪念他，将新大陆命名为美洲</p>
-<p>印度最重要的宗教，信仰的人数占印度人口80%以上，是民族宗教中人数最多的宗教 （<strong>印度教</strong>）</p>
-<p>与西欧的城市发展模式相同，东欧城市发展模式采取统一规划城市布局，限制中心城市规模，发展卫星城，形成多中心城市。 <strong>错误</strong></p>
-<p>精耕旱作农业是一种混合型农业，种植谷物、块根作物并从事养殖。这是一种主要分布在生态环境相对脆弱地区的生态环境类型。 <strong>错误</strong></p>
-<p>种族是文化人类学的概念，是根据文化属性对人群的划分。同一种族的人群具有强烈的认同感，在语言、宗教或其他文化特点上与其他人群相区别。 <strong>正确</strong></p>
-<p>世界上只有一个共同的人种，即现代智人种。 <strong>正确</strong></p>
-<p>1382年英语圣经的出现，结束了拉丁语的宗教语言地位。这时英语才成为英国的全民语言。 <strong>正确</strong></p>
-<p>高纬度地区温度低，为了保暖，身体的脂肪层增厚，躯体增大，四肢较短，这样可以减少身体的表面积，减少散热。   <strong>正确</strong></p>
-<p>犹太教是世界上最早的单一神的宗教。基督教、伊斯兰教都是在犹太教的基础上发展起来的。<strong>正确</strong></p>
-<p> 文化边界是根据语言、宗教、政治等文化要素划定的。文化边界包括（*<em>宗教边界，</em>政治边界<em>，几何边界</em>，语言边界****）等形式。</p>
-<p>在印第安土著文明曾经发达的地区，如秘鲁、墨西哥等过，以（<strong>印-欧混血，印第安人</strong>）人种为主。</p>
-<p>美国学者加恩在20世纪60年代提出了地理人种的概念，并将人种划分为三个层次（*<em>地理人种，小人种，地域人种</em>***）</p>
-<p>拉丁美洲以白人为主的国家有（*<em>乌拉圭，巴西，阿根廷</em>***）</p>
-<p>关于印欧语系的起源大致有两种观点：库尔干起源理论和安纳托利亚起源论。关于这两种观点，说法正确的有（）。</p>
-<p> <strong>.印欧语言库尔干起源论是武力传播理论，认为具有流动性的游牧民族是语言传播的载体。<br>库尔干起源理论产生于20世纪中叶，认为在库尔干地区，即乌克兰、南俄罗斯，黑海和里海的北部地区，是印欧语言起源的地方。</strong>**<br><strong>.安纳托利亚起源论 于20世纪80年代被一些学者提出，认为印欧语系的起源位于土耳其东部的安纳托利亚地区。</strong>**</p>
-<p>在农业发展过程中，最重要的是驯化。农作物驯化中心主要集中在（<strong>东南亚</strong>，<strong>西亚</strong>，<strong>中美洲</strong>）地区。被驯化后的农作物通过人类活动被带到了其他地方。</p>
-<p> 不同的地理环境中，人的（<strong>体型，鼻型，肤色，发型。</strong>）等会呈现一定的差别。人的体型外貌的变化，很大程度上是由于长期生活在一定的区域环境，对环境适应的结果。</p>
-<p>地域人种是地理人种的次一级单位，划分依据是人种之间的两种差别：（）。</p>
-<p><strong><strong><strong>地理隔绝和环境适应造成的差别，体质和基因上的隐型差别</strong></strong></strong></p>
-<p>(<strong>英国）</strong>是世界上最早开始近代城市化的国家。在工业革命的推动下，19世纪该国出现了一大批工业城市。</p>
-<p><strong>印欧语系</strong>是世界上最大的语系，主要包括希腊语、凯尔特语、阿尔巴尼亚语、日耳曼语族、罗曼语族、斯拉夫语族、亚美尼亚语、印度-伊朗语族。该语系的使用人数占世界人口的50%。</p>
-<p>地理大发现以来的500年间，（<strong>欧洲</strong>）地理人种的迁移最为明显 </p>
-<p>中国城市设计强调<strong><em>*<em><strong><em>（天人感应</em>）</strong></em>*</em>*</strong>的思想，君主的宫殿通常建立在南北轴线上的夯土高台上，来强化高度集中的君主的权利和威严。</p>
-<p>有些种族并没有建立自己的国家，而是分布于几个不同国家中，如 <strong>.库尔德族</strong></p>
-<p>当代世界人口的也呈现出分布不平衡的特点，其中起决定性作用的因素是 <strong>社会因素</strong></p>
-<p>黄种人狭细的眼裂，较平的鼻部和额部，可能与亚洲中部多（<strong>风沙</strong>）的环境有关</p>
-<p><strong>汉藏语系</strong>是世界第二大语系。它的起源跟中国早期的农业起源地有密切关系。</p>
-<p>在美国地理学家布里吉划分的12个世界文化区中，美洲被分成北美、中美、南美3个文化区。其中，中美文化区属于（<em><strong>拉丁文化区</strong></em><em>）文化区 ，</em>*</p>
-<h4 id="关于血型的说法正确的是"><a href="#关于血型的说法正确的是" class="headerlink" title="关于血型的说法正确的是"></a>关于血型的说法正确的是</h4><p><strong>Ｏ型血人群主要集中在美洲</strong></p>
-<p><strong>Ａ型血人群主要集中在欧洲</strong></p>
-<p><strong>Ｂ型血人群主要集中在亚洲</strong></p>
-<p>同心环模式将城市表面分为哪些城市环带</p>
-<p><strong>蓝领居住区，过渡区 ，通勤居住区 ，中等收入居住区 ，中心商务区</strong></p>
-<p><strong>现代拉丁美洲城市的发展大多表现为变形的楔开模式</strong> </p>
-<hr>
-<h1 id="阿彬搜索整理不易，喜欢的可以分享本站给朋友哦。"><a href="#阿彬搜索整理不易，喜欢的可以分享本站给朋友哦。" class="headerlink" title="阿彬搜索整理不易，喜欢的可以分享本站给朋友哦。"></a>阿彬搜索整理不易，喜欢的可以分享本站给朋友哦。</h1>]]></content>
-      <tags>
-        <tag>国家地理</tag>
-        <tag>地理知识</tag>
-        <tag>测试题</tag>
-        <tag>answer</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语代词/人称主格宾格/人称物主代词</title>
-    <url>/2022/7209d8af.html</url>
-    <content><![CDATA[<p> 废话不多说，直接上图。</p>
-<p><img data-src="https://s1.ax1x.com/2022/07/25/jvmhVO.jpg"></p>
-]]></content>
-      <tags>
-        <tag>English</tag>
-        <tag>英语</tag>
-        <tag>英语代词</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>腾讯QQ即将推出svip10 会员等级 谈谈看法</title>
-    <url>/2022/c0e51802.html</url>
-    <content><![CDATA[<p>腾讯QQ即将推出svip10 会员等级 谈谈看法<br>QQ微信这些相信大家都不会陌生了吧，国内即时通信很多都是靠腾讯的产品，这也是腾讯流量为王的绝技。<br>QQ的等级体系是很丰富的，像什么QQ会员，QQ超级会员，QQ的等级，每天登陆就给你成长值到了一定时间就可以升级，星星，月亮，太阳，皇冠这样子。皇冠就是满级了，目前是这样的。<br>微信就没有这么多花里胡哨的功能，就是纯聊天 ，我想QQ主要就是针对年轻人的产品吧，微信更偏向于商业，工作。<br>最近几年QQ等级从svip8 升级到了svip9，现在又要推出是SVIP10了，功能是越来越花哨了，我自己也是经常使用腾讯的产品，QQ搞得太花哨了，我现在使用的是TIM，定位是纯办公，所以里面基本跟微信一样，聊天也看不到什么耀眼的气泡，等级，都是没有的。<br><img data-src="https://i.imgtg.com/2022/05/22/hZmqD.jpg"><br>腾讯最近推出SVIP10，主要就是标签看着升级了，更花哨了，最低488元，不过跟其他等级不同的是，这次是永久的标志，对此我想提醒大家的是，QQ账号只有使用权，没有拥有权，到时候因为什么事情封了的话可就得不偿失了，充值需谨慎，当然土豪随意，下面是介绍。<br><img data-src="https://i.imgtg.com/2022/05/22/hZeic.jpg"><br>注意 ：参与升级svip10需要 会员成长值达到15万<br>看来必须得铁粉才能升级啊。（手动滑稽）<br>488元的套餐是1星的等级，最高的是3星等级需要1198元，<br>免费获得的是需要拿自己5w成长值兑换一年时间的SVIP10，<br>还有就是等级加速速度更快了。</p>
-<p>看了这么多，作为穷*的博主还是开通不起的，后辈当自强啊！<br>参与链接 腾讯QQSVIP10开通预约</p>
-]]></content>
-      <tags>
-        <tag>腾讯QQ</tag>
-        <tag>QQ svip10</tag>
-        <tag>腾讯会员</tag>
       </tags>
   </entry>
 </search>
