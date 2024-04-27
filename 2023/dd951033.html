@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="/lib/@fortawesome/fontawesome-free/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/lib/animate.css/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/lib/@fancyapps/fancybox/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/lib/pace-js/themes/blue/pace-theme-flash.css">
+  <script src="/lib/pace-js/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"linyunbin.com","root":"/","images":"/images","scheme":"Mist","darkmode":true,"version":"8.12.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="Farcdn希望能够让大多数人用得上稳定且简单的CDN">
+<meta property="og:type" content="article">
+<meta property="og:title" content="FARCDN高速cdn使用教程详细作者版全网首发！">
+<meta property="og:url" content="https://linyunbin.com/2023/dd951033.html">
+<meta property="og:site_name" content="林云彬博客">
+<meta property="og:description" content="Farcdn希望能够让大多数人用得上稳定且简单的CDN">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FLbS8hqk9SHYZbAuFLGDL%2Fimage.png?alt=media&token=912c3872-90bf-4dec-9827-dc3211bada88">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FUBG4cjnf7Zov3ESzOoxE%2Fimage.png?alt=media&token=44cfa578-4216-4d2c-ab93-97e822b78480">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FGG12jagSxxhUIRvZXUnk%2Fimage.png?alt=media&token=843cda97-8059-4d21-8b3d-6d2112be94e0">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FTHfNGaDIUbIGc43uHxlb%2Fimage.png?alt=media&token=5f871da6-180b-4539-89b9-b9c8fdbf8877">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FjCPzR9VRycXHjLmEahk4%2Fimage.png?alt=media&token=fe027fd0-abf6-4f74-84d4-90b4d4d09bdc">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2F60K12xyKXQIe1xPXAbF2%2Fimage.png?alt=media&token=326f11ec-1476-41af-9c08-2d395083afbe">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FXwFPSTzYOLGn0dlVegIi%2Fimage.png?alt=media&token=298959db-12c8-456e-ad47-98447984958b">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FvxqUp6Hb3VA7D9CUoPAK%2Fimage.png?alt=media&token=8db66b7d-e622-4f59-a14b-1a574f96cde0">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2Fsk2SiPIDSlzn8W3QzfbO%2Fimage.png?alt=media&token=a2e86dca-b39e-44ab-8e60-ad3b5bf03b36">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FPU1tajlZ0bYkfePqrvt0%2Fimage.png?alt=media&token=282414ec-a9ee-4228-a1a5-1f17c4cd6c41">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FiuhAa82ufkx6AYGvAYyC%2Fimage.png?alt=media&token=4cbaa69e-1892-482d-938e-5b292d43684c">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2F8U3luge1uPnLAPsrlKJ0%2Fimage.png?alt=media&token=d4b3f0ca-5dc7-4d6a-9aba-b6fcacb62a91">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FLAnvT7FgOE66lkVR2zQc%2Fimage.png?alt=media&token=33027b94-de6d-472a-b5d0-7a5724f576c5">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FLU59FW050Fai9k5IDvFA%2Fimage.png?alt=media&token=ece6bc27-6816-4c66-ad90-efab9167b043">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2F9yqy5T4lZmpyQH4GqMvi%2Fimage.png?alt=media&token=50d5693e-6cd0-4012-8ed1-9ab8a404a5d8">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FhG7d5NJicoffYY4Atdrk%2Fimage.png?alt=media&token=ffd8e40e-7ad5-4ebe-ae68-3463eb1c79df">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FfgfnhZzoJ5kChOo6XeNe%2Fimage.png?alt=media&token=4f862de3-21c5-4845-874f-b05fd7b2d3c5">
+<meta property="og:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FBJBCjRQTpQR9DkjZM7Vk%2Fimage.png?alt=media&token=ea7b8e7c-026c-48f3-872c-e9b959128ca9">
+<meta property="article:published_time" content="2023-01-03T13:53:11.000Z">
+<meta property="article:modified_time" content="2023-01-11T14:20:38.448Z">
+<meta property="article:author" content="林云彬博客">
+<meta property="article:tag" content="林云彬博客">
+<meta property="article:tag" content="高速SCDN">
+<meta property="article:tag" content="CDN加速">
+<meta property="article:tag" content="网站加速">
+<meta property="article:tag" content="网站缓存">
+<meta property="article:tag" content="边缘加速">
+<meta property="article:tag" content="安全CDN">
+<meta property="article:tag" content="js">
+<meta property="article:tag" content="css">
+<meta property="article:tag" content="png">
+<meta property="article:tag" content="webp">
+<meta property="article:tag" content="Farcdn">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FLbS8hqk9SHYZbAuFLGDL%2Fimage.png?alt=media&token=912c3872-90bf-4dec-9827-dc3211bada88">
+
+
+<link rel="canonical" href="https://linyunbin.com/2023/dd951033.html">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://linyunbin.com/2023/dd951033.html","path":"2023/dd951033.html","title":"FARCDN高速cdn使用教程详细作者版全网首发！"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>FARCDN高速cdn使用教程详细作者版全网首发！ | 林云彬博客</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">林云彬博客</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">一个林云彬的网络闲聊之地</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#FARCDN%E5%AE%98%E7%BD%91"><span class="nav-number">1.</span> <span class="nav-text">FARCDN官网</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AE%80%E4%BB%8B"><span class="nav-number">1.0.1.</span> <span class="nav-text">简介</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8"><span class="nav-number">1.0.1.1.</span> <span class="nav-text">开始使用</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Farcdn%E7%94%A8%E6%88%B7%E5%89%8D%E5%8F%B0%E5%85%A5%E9%97%A8"><span class="nav-number">1.0.2.</span> <span class="nav-text">Farcdn用户前台入门</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8%E5%86%8C"><span class="nav-number">1.0.2.1.</span> <span class="nav-text">注册</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%A8%E5%86%8C%E5%90%8E%E5%8A%A1%E5%BF%85%E5%85%A5Q%E7%BE%A4-581263696-%E8%81%94%E7%B3%BB%E7%BE%A4%E4%B8%BB%E5%AE%A1%E6%A0%B8"><span class="nav-number">1.1.</span> <span class="nav-text">注册后务必入Q群:581263696 联系群主审核</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E5%9F%9F%E5%90%8D%E5%8A%A0%E9%80%9F"><span class="nav-number">1.1.0.1.</span> <span class="nav-text">添加域名加速</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8A%A0%E9%80%9F%E5%9F%9F%E5%90%8D"><span class="nav-number">1.1.0.2.</span> <span class="nav-text">加速域名</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9F%9F%E5%90%8D%E5%8D%8F%E8%AE%AE"><span class="nav-number">1.1.0.3.</span> <span class="nav-text">域名协议</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%BA%90%E7%AB%99%E4%BF%A1%E6%81%AF"><span class="nav-number">1.1.0.4.</span> <span class="nav-text">源站信息</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Farcdn%E7%94%A8%E6%88%B7%E5%89%8D%E5%8F%B0%E8%BF%9B%E9%98%B6"><span class="nav-number">1.1.1.</span> <span class="nav-text">Farcdn用户前台进阶</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9F%9F%E5%90%8D%E7%AE%A1%E7%90%86"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">域名管理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9F%9F%E5%90%8D"><span class="nav-number">1.1.1.2.</span> <span class="nav-text">域名</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTP"><span class="nav-number">1.1.1.3.</span> <span class="nav-text">HTTP</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTTPS"><span class="nav-number">1.1.1.4.</span> <span class="nav-text">HTTPS</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%90%AF%E7%94%A8HTTPS"><span class="nav-number">1.1.1.5.</span> <span class="nav-text">启用HTTPS</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%90%AF%E7%94%A8HTTP-x2F-2"><span class="nav-number">1.1.1.6.</span> <span class="nav-text">启用HTTP&#x2F;2</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%89%E6%8B%A9%E8%AF%81%E4%B9%A6"><span class="nav-number">1.1.1.7.</span> <span class="nav-text">选择证书</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%BA%90%E7%AB%99"><span class="nav-number">1.1.1.8.</span> <span class="nav-text">源站</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%83%A8%E5%88%86%E5%8A%9F%E8%83%BD%E6%80%A7%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.1.2.</span> <span class="nav-text">部分功能性介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#WAF"><span class="nav-number">1.1.2.1.</span> <span class="nav-text">WAF</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BC%93%E5%AD%98"><span class="nav-number">1.1.2.2.</span> <span class="nav-text">缓存</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BF%E9%97%AE%E6%97%A5%E5%BF%97"><span class="nav-number">1.1.2.3.</span> <span class="nav-text">访问日志</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%86%85%E5%AE%B9%E5%8E%8B%E7%BC%A9"><span class="nav-number">1.1.2.4.</span> <span class="nav-text">内容压缩</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#WebP"><span class="nav-number">1.1.2.5.</span> <span class="nav-text">WebP</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%B7%E6%B1%82%E9%99%90%E5%88%B6"><span class="nav-number">1.1.2.6.</span> <span class="nav-text">请求限制</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%B4%E5%A4%9A%E9%AB%98%E7%BA%A7%E6%93%8D%E4%BD%9C%E8%AF%B7%E8%87%AA%E7%94%B1%E5%8F%91%E6%8C%A5%EF%BC%8C%E5%A6%82%E4%B8%8D%E6%87%82%EF%BC%8C%E9%BB%98%E8%AE%A4%E5%8D%B3%E5%8F%AF%E3%80%82"><span class="nav-number">1.2.</span> <span class="nav-text">更多高级操作请自由发挥，如不懂，默认即可。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%B4%E5%A4%9A%E7%B2%BE%E5%BD%A9%E5%86%85%E5%AE%B9%E5%B0%BD%E5%9C%A8%E6%9E%97%E4%BA%91%E5%BD%AC%E5%8D%9A%E5%AE%A2%EF%BC%81"><span class="nav-number">1.3.</span> <span class="nav-text">更多精彩内容尽在林云彬博客！</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">林云彬博客</p>
+  <div class="site-description" itemprop="description">林云彬的博客,记录生活,分享点滴！</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">29</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">151</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://linyunbin.com/2023/dd951033.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="林云彬博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="林云彬博客">
+      <meta itemprop="description" content="林云彬的博客,记录生活,分享点滴！">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="FARCDN高速cdn使用教程详细作者版全网首发！ | 林云彬博客">
+      <meta itemprop="description" content="Farcdn希望能够让大多数人用得上稳定且简单的CDN">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          FARCDN高速cdn使用教程详细作者版全网首发！
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-01-03 21:53:11" itemprop="dateCreated datePublished" datetime="2023-01-03T21:53:11+08:00">2023-01-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-01-11 22:20:38" itemprop="dateModified" datetime="2023-01-11T22:20:38+08:00">2023-01-11</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="firestore-visitors-count"></span>
+    </span>
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+            <div class="post-description">Farcdn希望能够让大多数人用得上稳定且简单的CDN</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="FARCDN官网"><a href="#FARCDN官网" class="headerlink" title="FARCDN官网"></a><a target="_blank" rel="noopener" href="https://my.farcdn.net/">FARCDN官网</a></h1><p>以下为内容商家小菜鸡提供，本博客全网首发，方便大家食用。</p>
+<p>CDN节点数量持续增加，内测期间为7节点，截至发稿现有16个节点</p>
+<p>主要节点分布于亚洲Asia附近 香港 日本 新加坡 韩国 …….</p>
+<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p><strong>Farcdn</strong> 希望能够让大多数人用得上稳定且简单的CDN</p>
+<blockquote>
+<p>禁止黄赌毒等违反服务器所在地法律的网站接入Farcdn</p>
+</blockquote>
+<h4 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h4><ul>
+<li><p>需要注册然后等待审核</p>
+</li>
+<li><p>一般审核需要先入群</p>
+</li>
+</ul>
+<blockquote>
+<p>以上步骤是为了避免滥用和稳定</p>
+</blockquote>
+<h3 id="Farcdn用户前台入门"><a href="#Farcdn用户前台入门" class="headerlink" title="Farcdn用户前台入门"></a>Farcdn用户前台入门</h3><h4 id="注册"><a href="#注册" class="headerlink" title="注册"></a><strong>注册</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FLbS8hqk9SHYZbAuFLGDL%2Fimage.png?alt=media&token=912c3872-90bf-4dec-9827-dc3211bada88" alt="img"></p>
+<blockquote>
+<h2 id="注册后务必入Q群-581263696-联系群主审核"><a href="#注册后务必入Q群-581263696-联系群主审核" class="headerlink" title="注册后务必入Q群:581263696 联系群主审核"></a>注册后务必入Q群:<strong>581263696</strong> 联系群主审核</h2></blockquote>
+<h4 id="添加域名加速"><a href="#添加域名加速" class="headerlink" title="添加域名加速"></a><strong>添加域名加速</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FUBG4cjnf7Zov3ESzOoxE%2Fimage.png?alt=media&token=44cfa578-4216-4d2c-ab93-97e822b78480" alt="img"></p>
+<h4 id="加速域名"><a href="#加速域名" class="headerlink" title="加速域名"></a><strong>加速域名</strong></h4><ul>
+<li>（不需要填写http:&#x2F;&#x2F; 与 https:&#x2F;&#x2F;）</li>
+</ul>
+<p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FGG12jagSxxhUIRvZXUnk%2Fimage.png?alt=media&token=843cda97-8059-4d21-8b3d-6d2112be94e0" alt="img"></p>
+<h4 id="域名协议"><a href="#域名协议" class="headerlink" title="域名协议"></a><strong>域名协议</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FTHfNGaDIUbIGc43uHxlb%2Fimage.png?alt=media&token=5f871da6-180b-4539-89b9-b9c8fdbf8877" alt="img"></p>
+<blockquote>
+<p>如果勾选了https需要上传你的证书，如果不打算让域名能够使用https访问就只选http</p>
+</blockquote>
+<h4 id="源站信息"><a href="#源站信息" class="headerlink" title="源站信息"></a><strong>源站信息</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FjCPzR9VRycXHjLmEahk4%2Fimage.png?alt=media&token=fe027fd0-abf6-4f74-84d4-90b4d4d09bdc" alt="img"></p>
+<p><strong>点击加号可以添加源站信息</strong></p>
+<p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2F60K12xyKXQIe1xPXAbF2%2Fimage.png?alt=media&token=326f11ec-1476-41af-9c08-2d395083afbe" alt="img"></p>
+<ul>
+<li><strong>http</strong></li>
+</ul>
+<blockquote>
+<p>源站 <strong>没有开启强制 https</strong> 时候选</p>
+</blockquote>
+<ul>
+<li><strong>https</strong></li>
+</ul>
+<blockquote>
+<p>源站 <strong>开启强制 https</strong> 时候选</p>
+</blockquote>
+<ul>
+<li><strong>源站地址</strong></li>
+</ul>
+<blockquote>
+<p>选了http:&#x2F;&#x2F; 一般就填 ip:80 | 如：1.1.1.1:80</p>
+</blockquote>
+<blockquote>
+<p>选了https:&#x2F;&#x2F; 一般就填 ip:443 | 如：2.2.2.2:443</p>
+</blockquote>
+<p><strong>其他不用管 之后就可以直接点保存</strong></p>
+<hr>
+<h3 id="Farcdn用户前台进阶"><a href="#Farcdn用户前台进阶" class="headerlink" title="Farcdn用户前台进阶"></a>Farcdn用户前台进阶</h3><h4 id="域名管理"><a href="#域名管理" class="headerlink" title="域名管理"></a><strong>域名管理</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FXwFPSTzYOLGn0dlVegIi%2Fimage.png?alt=media&token=298959db-12c8-456e-ad47-98447984958b" alt="img"></p>
+<blockquote>
+<p>在管理之前，先去你的域名解析商，cname解析到 CNAME处 显示的域名</p>
+<p>状态显示正常后，你即可点击管理开始操作。</p>
+</blockquote>
+<p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FvxqUp6Hb3VA7D9CUoPAK%2Fimage.png?alt=media&token=8db66b7d-e622-4f59-a14b-1a574f96cde0" alt="img"></p>
+<h4 id="域名"><a href="#域名" class="headerlink" title="域名"></a><strong>域名</strong></h4><blockquote>
+<p>此处你可以添加域名绑定</p>
+</blockquote>
+<h4 id="HTTP"><a href="#HTTP" class="headerlink" title="HTTP"></a><strong>HTTP</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2Fsk2SiPIDSlzn8W3QzfbO%2Fimage.png?alt=media&token=a2e86dca-b39e-44ab-8e60-ad3b5bf03b36" alt="img"></p>
+<blockquote>
+<p>如果你的网站没有开启HTTPS，那么自动跳转的选项不用选</p>
+</blockquote>
+<h4 id="HTTPS"><a href="#HTTPS" class="headerlink" title="HTTPS"></a><strong>HTTPS</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FPU1tajlZ0bYkfePqrvt0%2Fimage.png?alt=media&token=282414ec-a9ee-4228-a1a5-1f17c4cd6c41" alt="img"></p>
+<ul>
+<li><h4 id="启用HTTPS"><a href="#启用HTTPS" class="headerlink" title="启用HTTPS"></a>启用HTTPS</h4></li>
+</ul>
+<blockquote>
+<p>  此选项让你的域名可以使用https协议访问</p>
+</blockquote>
+<ul>
+<li><h4 id="启用HTTP-x2F-2"><a href="#启用HTTP-x2F-2" class="headerlink" title="启用HTTP&#x2F;2"></a>启用HTTP&#x2F;2</h4></li>
+</ul>
+<blockquote>
+<p>想知道开启有什么用的话，自己用搜索引擎搜索一下</p>
+</blockquote>
+<ul>
+<li><h4 id="选择证书"><a href="#选择证书" class="headerlink" title="选择证书"></a>选择证书</h4></li>
+</ul>
+<p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FiuhAa82ufkx6AYGvAYyC%2Fimage.png?alt=media&token=4cbaa69e-1892-482d-938e-5b292d43684c" alt="img"></p>
+<blockquote>
+<p>这里的证书可以上传多个（如果你前面有绑定多个域名）</p>
+</blockquote>
+<h4 id="源站"><a href="#源站" class="headerlink" title="源站"></a><strong>源站</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2F8U3luge1uPnLAPsrlKJ0%2Fimage.png?alt=media&token=d4b3f0ca-5dc7-4d6a-9aba-b6fcacb62a91" alt="img"></p>
+<blockquote>
+<p>源站填写参考前面的 <strong>源站信息</strong></p>
+<p>其他不懂的，不要动，保持默认即可</p>
+</blockquote>
+<h3 id="部分功能性介绍"><a href="#部分功能性介绍" class="headerlink" title="部分功能性介绍"></a><strong>部分功能性介绍</strong></h3><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FLAnvT7FgOE66lkVR2zQc%2Fimage.png?alt=media&token=33027b94-de6d-472a-b5d0-7a5724f576c5" alt="img"></p>
+<h4 id="WAF"><a href="#WAF" class="headerlink" title="WAF"></a><strong>WAF</strong></h4><blockquote>
+<p>建议开启，就会用系统自带的。</p>
+<p>其他如入站规则等可以自行摸索。</p>
+</blockquote>
+<h4 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a><strong>缓存</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FLU59FW050Fai9k5IDvFA%2Fimage.png?alt=media&token=ece6bc27-6816-4c66-ad90-efab9167b043" alt="img"></p>
+<blockquote>
+<p>建议开启，静态文件系统自带规则是缓存2小时，你可以自定义。</p>
+</blockquote>
+<h4 id="访问日志"><a href="#访问日志" class="headerlink" title="访问日志"></a><strong>访问日志</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2F9yqy5T4lZmpyQH4GqMvi%2Fimage.png?alt=media&token=50d5693e-6cd0-4012-8ed1-9ab8a404a5d8" alt="img"></p>
+<blockquote>
+<p>建议开启，建议勾选只记录WAF相关日志</p>
+</blockquote>
+<h4 id="内容压缩"><a href="#内容压缩" class="headerlink" title="内容压缩"></a><strong>内容压缩</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FhG7d5NJicoffYY4Atdrk%2Fimage.png?alt=media&token=ffd8e40e-7ad5-4ebe-ae68-3463eb1c79df" alt="img"></p>
+<blockquote>
+<p>建议开启，然后保持默认，保存即可。</p>
+</blockquote>
+<h4 id="WebP"><a href="#WebP" class="headerlink" title="WebP"></a><strong>WebP</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FfgfnhZzoJ5kChOo6XeNe%2Fimage.png?alt=media&token=4f862de3-21c5-4845-874f-b05fd7b2d3c5" alt="img"></p>
+<blockquote>
+<p>建议开启，保持默认即可，然后保存</p>
+</blockquote>
+<h4 id="请求限制"><a href="#请求限制" class="headerlink" title="请求限制"></a><strong>请求限制</strong></h4><p><img data-src="https://2358154268-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F9MpTRAyiK1rNMVnSlwda%2Fuploads%2FBJBCjRQTpQR9DkjZM7Vk%2Fimage.png?alt=media&token=ea7b8e7c-026c-48f3-872c-e9b959128ca9" alt="img"></p>
+<blockquote>
+<p>建议启用，然后开启单连接带宽限制速度，避免被刷流量</p>
+<p>- </p>
+<p>  单IP最大并发建议填<code>10</code>左右</p>
+</blockquote>
+<hr>
+<h2 id="更多高级操作请自由发挥，如不懂，默认即可。"><a href="#更多高级操作请自由发挥，如不懂，默认即可。" class="headerlink" title="更多高级操作请自由发挥，如不懂，默认即可。"></a><strong>更多高级操作请自由发挥，如不懂，默认即可。</strong></h2><h2 id="更多精彩内容尽在林云彬博客！"><a href="#更多精彩内容尽在林云彬博客！" class="headerlink" title="更多精彩内容尽在林云彬博客！"></a>更多精彩内容尽在林云彬博客！</h2>
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%9E%97%E4%BA%91%E5%BD%AC%E5%8D%9A%E5%AE%A2/" rel="tag"># 林云彬博客</a>
+              <a href="/tags/%E9%AB%98%E9%80%9FSCDN/" rel="tag"># 高速SCDN</a>
+              <a href="/tags/CDN%E5%8A%A0%E9%80%9F/" rel="tag"># CDN加速</a>
+              <a href="/tags/%E7%BD%91%E7%AB%99%E5%8A%A0%E9%80%9F/" rel="tag"># 网站加速</a>
+              <a href="/tags/%E7%BD%91%E7%AB%99%E7%BC%93%E5%AD%98/" rel="tag"># 网站缓存</a>
+              <a href="/tags/%E8%BE%B9%E7%BC%98%E5%8A%A0%E9%80%9F/" rel="tag"># 边缘加速</a>
+              <a href="/tags/%E5%AE%89%E5%85%A8CDN/" rel="tag"># 安全CDN</a>
+              <a href="/tags/js/" rel="tag"># js</a>
+              <a href="/tags/css/" rel="tag"># css</a>
+              <a href="/tags/png/" rel="tag"># png</a>
+              <a href="/tags/webp/" rel="tag"># webp</a>
+              <a href="/tags/Farcdn/" rel="tag"># Farcdn</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/ef1b48f6.html" rel="prev" title="Ubuntu20系统设置DNS教程（ping不通外网）纯ipv6">
+                  <i class="fa fa-chevron-left"></i> Ubuntu20系统设置DNS教程（ping不通外网）纯ipv6
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2023/45bc0655.html" rel="next" title="搬瓦工中美极速CN2 GIA线路服务器99刀/年新低限量套餐">
+                  搬瓦工中美极速CN2 GIA线路服务器99刀/年新低限量套餐 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2021 – 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-thin fa-globe"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">linyunbin.com</span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="/lib/animejs/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="/lib/@next-theme/pjax/pjax.min.js" integrity="sha256-3NkoLDrmHLTYj7csHIZSr0MHAFTXth7Ua/DDt4MRUAg=" crossorigin="anonymous"></script>
+  <script src="/lib/jquery/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="/lib/@fancyapps/fancybox/dist/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="/lib/lozad/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
+
+  
+<script src="/lib/hexo-generator-searchdb/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+  <script src="/js/third-party/pace.js"></script>
+
+  
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  <script src="/lib/firebase/firebase-app-compat.js" integrity="sha256-Ha44Wy1mfvy/FARbw1LEZEP+6CR0xY9DjqQO0CxiR+A=" crossorigin="anonymous"></script>
+  <script src="/lib/firebase/firebase-firestore-compat.js" integrity="sha256-/PPuiA5ROMN6ofcCtoekNMy+IJpZYKYEVHGiJWl1FY8=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="firestore" type="application/json">{"enable":true,"collection":"articles","apiKey":null,"projectId":null}</script>
+  <script src="/js/third-party/statistics/firestore.js"></script>
+
+
+
+  <script src="/lib/quicklink/dist/quicklink.umd.js" integrity="sha256-4kQf9z5ntdQrzsBC3YSHnEz02Z9C1UeW/E9OgnvlzSY=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":false,"archive":false,"delay":true,"timeout":3000,"priority":true,"url":"https://linyunbin.com/2023/dd951033.html"}</script>
+  <script src="/js/third-party/quicklink.js"></script>
+
+</body>
+</html>
