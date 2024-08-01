@@ -180,13 +180,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">29</span>
+          <span class="site-state-item-count">30</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">151</span>
+        <span class="site-state-item-count">154</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -297,7 +297,7 @@
 <p>安装GIT部署插件<br>输入   <code>npm install hexo-deployer-git --save</code><br> 本地的hexo就已经部署完毕了</p>
 <p>接下来生成密钥<br>输入  <code> git config --global user.name &quot;你的GitHub用户名&quot;</code></p>
 <p>输入 <code>  git config --global user.email &quot;你的GitHub注册邮箱&quot;</code></p>
-<p>接下来生成密钥<br>输入 <code>ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot; </code><br>直接三个回车，根据提示找到生成的.ssh的文件夹中的id_rsa.pub密钥，将内容全部复制。<br> 打开 GitHub.com ，没有账户使用邮箱注册一个<br> 有的话直接点链接进入<br> <a target="_blank" rel="noopener" href="https://github.com/settings/keys">keys设置页面</a><br> 进入主页 右上角 setting ， 点击左侧 SSH and GPG keys<br><img data-src="https://s1.ax1x.com/2022/07/21/jLMqTe.png"><br> 标题随意，把生成的密钥粘贴进去， 最后点击Add SSH key。<br> <img data-src="https://s1.ax1x.com/2022/07/21/jLQfHS.png"><br> 在Git Bash中检测GitHub公钥设置是否成功<br> 输入 <code>ssh git@github.com</code><br> 如果提示中 开头 有你的用户名 或看到 successfully，表示成功。<br> 密钥是用来连接GitHub仓库的，只有经过验证才可以上传到仓库，确保安全性。<br> 接下来 找到你电脑创建的hexo源码的目录 找到_config.yml 文件 （站点配置）。 theme中的是主题配置文件。<br> 打开站点的配置文件_config.yml，翻到最后修改为：<br><img data-src="https://s1.ax1x.com/2022/07/21/jLGxpQ.png" alt="jLGxpQ.png"><br>deploy:<br>type: git<br>repo: <a href="mailto:&#103;&#x69;&#x74;&#64;&#x67;&#x69;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#109;">&#103;&#x69;&#x74;&#64;&#x67;&#x69;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#109;</a>:你的用户名&#x2F;你的用户名.github.io.git<br>branch: main<br> repo中的内容就是你进入仓库后 页面中间 绿色按钮 code，里面的ssh链接。<br> branch是仓库的默认名，看你仓库用的是 main还是master，现在默认是main，具体看你仓库branches设置 <a target="_blank" rel="noopener" href="https://github.com/settings/keys">传送门</a></p>
+<p>接下来生成密钥<br>输入 <code>ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot; </code><br>直接三个回车，根据提示找到生成的.ssh的文件夹中的id_rsa.pub密钥，将内容全部复制。<br> 打开 GitHub.com ，没有账户使用邮箱注册一个<br> 有的话直接点链接进入<br> <a target="_blank" rel="noopener" href="https://github.com/settings/keys">keys设置页面</a><br> 进入主页 右上角 setting ， 点击左侧 SSH and GPG keys<br><img data-src="https://s1.ax1x.com/2022/07/21/jLMqTe.png"><br> 标题随意，把生成的密钥粘贴进去， 最后点击Add SSH key。<br> <img data-src="https://s1.ax1x.com/2022/07/21/jLQfHS.png"><br> 在Git Bash中检测GitHub公钥设置是否成功<br> 输入 <code>ssh git@github.com</code><br> 如果提示中 开头 有你的用户名 或看到 successfully，表示成功。<br> 密钥是用来连接GitHub仓库的，只有经过验证才可以上传到仓库，确保安全性。<br> 接下来 找到你电脑创建的hexo源码的目录 找到_config.yml 文件 （站点配置）。 theme中的是主题配置文件。<br> 打开站点的配置文件_config.yml，翻到最后修改为：<br><img data-src="https://s1.ax1x.com/2022/07/21/jLGxpQ.png" alt="jLGxpQ.png"><br>deploy:<br>type: git<br>repo: <a href="mailto:&#103;&#x69;&#116;&#x40;&#x67;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#99;&#x6f;&#109;">&#103;&#x69;&#116;&#x40;&#x67;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#99;&#x6f;&#109;</a>:你的用户名&#x2F;你的用户名.github.io.git<br>branch: main<br> repo中的内容就是你进入仓库后 页面中间 绿色按钮 code，里面的ssh链接。<br> branch是仓库的默认名，看你仓库用的是 main还是master，现在默认是main，具体看你仓库branches设置 <a target="_blank" rel="noopener" href="https://github.com/settings/keys">传送门</a></p>
 <p> 最后再输入<br>    <code> hexo clean</code> 清理<br>   <code> hexo g  </code>生成页面<br>  <code>  hexo d </code> 发布到GitHub<br> 现在进入GitHub 中你的域名就可以看到网站啦，你的域名就是最开始设置的库名 xxx.github.io<br> 你还想个性一点的话，可以在github设置自定义域名<br> 在仓库点击settings ，是页面中上边的setings，不是右上角的。<br> <img data-src="https://s1.ax1x.com/2022/07/21/jL1cef.png"><br> 左边找到 pages 进入 在custom domain 设置你自己的域名，域名直接cname解析至 你的仓库域名即可。<br> <img data-src="https://s1.ax1x.com/2022/07/21/jL3tcn.png"></p>
 <p> 现在你就可以用自己的域名访问hexo啦！<br> 如果你发布的文章上传到GitHub后 自定义域名失效了，那么你就到GitHub 重新设置一下，然后在仓库里把 cname这个文件下载下来，里面是你的域名，把这个文件放置到你本地源码的 source中，这样以后发布也不会失效了。<br> 下面是几个命令<br>发布文章一定按照这个顺序进行</p>
 <pre><code>` hexo clean` 清理缓存
